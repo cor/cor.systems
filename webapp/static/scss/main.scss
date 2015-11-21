@@ -1,3 +1,16 @@
+$gray-color: #4A4A4A;
+
 h1 {
-	font-family: courier;
+}
+
+body {
+	text-align: center;
+	color: $gray-color;
+	font-family: Helvetica;
+}
+
+img {
+	margin-top: 100px;
+	width: 100%;
+	max-width: 625px;
 }
