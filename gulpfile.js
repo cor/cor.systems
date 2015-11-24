@@ -5,8 +5,7 @@ var shell = require('gulp-shell');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 
-gulp.task('default', ['start_server', 'scss_watch']);
-gulp.task('start_server', shell.task(['cd webapp && sudo ./startserver.sh']));
+gulp.task('default', ['scss_watch']);
 
 var paths = {
 	styles : {
