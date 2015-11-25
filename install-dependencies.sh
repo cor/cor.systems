@@ -5,3 +5,5 @@ npm install gulp-sass
 npm install gulp-autoprefixer
 
 npm install vue
+npm install vue-router
+npm install vue-resource
