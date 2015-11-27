@@ -1,21 +1,18 @@
-<style lang="scss" scoped>
-</style>
-
 <template>
 
   <div id="app">
-    <h1>{{msg}}</h1>
-    <comp-a></comp-a>
-    <comp-b></comp-b>
-    <Counter></Counter>
-    
+
+    <site-header></site-header>
+    <project-display></project-display>
+    <project-display></project-display>
+    <project-display></project-display>
+
   </div>
 </template>
 
 <script>
-import CompA from './components/a.vue'
-import CompB from './components/b.vue'
-import Counter from './components/counter.vue'
+import SiteHeader from './components/site-header.vue'
+import ProjectDisplay from './components/project-display.vue'
 
 export default {
   data() {
@@ -24,9 +21,8 @@ export default {
     }
   },
   components: {
-    CompA,
-    CompB,
-    Counter
+    SiteHeader,
+    ProjectDisplay
   }
 }
 </script>

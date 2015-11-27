@@ -1,7 +1,10 @@
 corcoder.com
 ============
+The vue version of corcoder.com
 
 ### SETUP
 ```bash 
-	The VUE version of corcoder.com
+	npm install
+	npm run dev
+	open http://localhost:8080
 ```

@@ -9,7 +9,6 @@ Vue.use(VueResource);
 
 // Routing
 var router = new VueRouter();
-
 var App = Vue.extend();
 
 // start router in element with id of app
