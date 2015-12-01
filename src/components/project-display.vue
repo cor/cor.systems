@@ -5,13 +5,13 @@
 	height: 100px;
 	background-color: green;
 	display: inline-block;
+	flex: 1;
 }
 </style>
 
 <template>
 	<div class="project-display">
 		<p>sup</p>
-		
+
 	</div>
 </template>
-

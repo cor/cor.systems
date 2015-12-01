@@ -2,11 +2,11 @@
 <style lang="sass" scoped>
 
 .site-header {
-	height: 100px;
+	height: 8em;
 	text-align: center;
 	background-color: red;
 
-	padding: 8px;
+	padding: 0.5em;
 
 	img {
 		height: 100%;
