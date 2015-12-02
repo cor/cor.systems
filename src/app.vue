@@ -53,7 +53,7 @@
 
 		<site-main>
 
-			<h2 style="text-align: center; padding: 1rem;">Work in progress.</h2>
+			<h2 style="text-align: center; padding: 0.5rem;">Work in progress.</h2>
 			<project-display-container>
 				<project-display></project-display>
 				<project-display></project-display>
