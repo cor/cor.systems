@@ -1,8 +1,9 @@
 {
-  "name": "vueify-example",
+  "name": "corcoder.com",
   "version": "1.0.0",
-  "description": "Vueify transform for Browserify example",
+  "description": "corcoder.com site",
   "main": "index.js",
+  "repository": "cor/corcoder.com",   
   "scripts": {
     "dev": "watchify -vd -p browserify-hmr -t vueify -e src/main.js -o build/build.js & http-server -c 1 -a localhost",
     "build": "NODE_ENV=production ./node_modules/watchify/node_modules/.bin/browserify -t vueify -e src/main.js | uglifyjs -c warnings=false -m > build/build.js"
