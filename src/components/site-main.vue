@@ -1,7 +1,6 @@
 <style lang="sass" scoped>
 .site-main {
 	flex: 1;
-
 }
 
 </style>

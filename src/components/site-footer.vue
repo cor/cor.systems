@@ -1,7 +1,11 @@
-<style>
+<style lang="sass" scoped>
 	footer {
 		background-color: #4A4A4A;
 		color: white;
+		padding: 1em;
+		p {
+			text-align: center;
+		}
 	}
 </style>
 

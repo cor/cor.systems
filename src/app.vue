@@ -23,9 +23,10 @@
 		background-color: #eeeeee;
 	}
 
-	.app {
+	#app {
 		display: flex;
 		min-height: 100vh;
+		flex-direction: column;
 	}
 
 </style>
