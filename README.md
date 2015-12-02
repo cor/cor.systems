@@ -1,8 +1,8 @@
 corcoder.com
 ============
-The vue version of corcoder.com
+A site that is used for showcasing my projects.
 
-### SETUP
+### How to run
 ```bash 
 	npm install
 	npm run dev
