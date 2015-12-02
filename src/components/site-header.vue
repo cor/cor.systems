@@ -2,14 +2,16 @@
 <style lang="sass" scoped>
 
 .site-header {
-	height: 8em;
 	text-align: center;
-	background-color: red;
+
+	background-color: white;
+	border-bottom: 2px solid #4A4A4A;
 
 	padding: 0.5em;
 
 	img {
-		height: 100%;
+		max-width: 512px;
+
 	}
 }
 
@@ -18,7 +20,7 @@
 <template>
 
 <div class="site-header">
-	<img src="art/logo-monochrome-inverse.png" alt="CorCoder logo">
+	<img src="art/logo.png" alt="CorCoder logo">
 </div>
 
 </template>

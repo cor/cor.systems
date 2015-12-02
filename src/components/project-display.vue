@@ -3,7 +3,7 @@
 .project-display {
 	width: 100px;
 	height: 100px;
-	background-color: green;
+	background-color: #50E3C2;
 	display: inline-block;
 	flex: 1;
 }
@@ -12,6 +12,5 @@
 <template>
 	<div class="project-display">
 		<p>sup</p>
-
 	</div>
 </template>

@@ -4,9 +4,10 @@
     }
 
     .header {
+        padding: 0.5em;
         p {
-            font-family: Helvetica;
-            font-size: 24px;
+            font-size: 4em;
+            margin: 0;
         }
     }
 </style>
@@ -14,9 +15,10 @@
 <template>
     <div class="header">
         <p>Projects</p>
+        <hr>
     </div>
     <div class="project-display-container">
-        <!-- project display's go here !-->
+        <!-- project disply's go here !-->
         <slot>
     </div>
 </template>
