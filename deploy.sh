@@ -28,4 +28,4 @@ endtime=`date +%s.%N`
 
 runtime=$((endtime - starttime))
 
-echo "Script complete, runtime: $runtime"
+echo "Site deployed, runtime: $runtime"
