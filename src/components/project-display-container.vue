@@ -5,8 +5,8 @@
 
     .header {
         padding: 0.5em;
-        p {
-            font-size: 4em;
+        h2 {
+            font-size: 3em;
             margin: 0;
         }
     }
@@ -14,7 +14,7 @@
 
 <template>
     <div class="header">
-        <p>Projects</p>
+        <h2>Projects</h2>
         <hr>
     </div>
     <div class="project-display-container">

@@ -5,6 +5,7 @@
 		padding: 1em;
 		p {
 			text-align: center;
+			font-family: Verdana;
 		}
 	}
 </style>
