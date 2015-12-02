@@ -7,11 +7,14 @@
 			text-align: center;
 			font-family: Verdana;
 		}
+		a {
+			color: #50E3C2;
+		}
 	}
 </style>
 
 <template>
 	<footer>
-		<p>&copy;Cor Pruijs <a href="mailto:cor@pruijs.nl">cor@pruijs.nl</a></p>
+		<p>&copy; Cor Pruijs <a href="mailto:cor@pruijs.nl">cor@pruijs.nl</a></p>
 	</footer>
 </template>

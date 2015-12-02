@@ -1,18 +1,9 @@
 <style>
-	@font-face {
-		font-family:"Dalle";
-		src:url("fonts/Dalle_Typeface.eot?") format("eot"),
-		url("fonts/Dalle_Typeface.woff") format("woff"),
-		url("fonts/Dalle_Typeface.ttf") format("truetype"),
-		url("fonts/Dalle_Typeface.svg#Dalle") format("svg");
-		font-weight: normal;
-		font-style:normal;
-	}
 
 	html {
 		box-sizing: border-box;
 		color: #4A4A4A;
-		font-family: Dalle;
+		font-family: Inconsolata;
 	}
 
 	*, *:before, *:after {
@@ -27,6 +18,23 @@
 		display: flex;
 		min-height: 100vh;
 		flex-direction: column;
+	}
+
+	h2 {
+		font-family: Dalle;
+        font-size: 3rem;
+	}
+
+	h3 {
+		font-weight: bold;
+		font-size: 1.2em;
+	}
+
+	hr {
+		border: 0;
+		height: 0;
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 	}
 
 </style>
