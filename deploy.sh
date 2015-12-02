@@ -1,6 +1,6 @@
 #!/bin/sh
 
-starttime=`date +%s.%N`
+starttime=`date +%s`
 
 cd ..
 rm -rf cc
@@ -24,8 +24,8 @@ cd corcoder.com;
 killall screen;
 screen -d -m "/home/pi/Server/corcoder.com/run-server.sh";'
 
-endtime=`date +%s.%N`
+endtime=`date +%s`
 
 runtime=$((endtime - starttime))
 
-echo "Site deployed, runtime: $runtime"
+echo "Site deployed, runtime: $runtime seconds"
