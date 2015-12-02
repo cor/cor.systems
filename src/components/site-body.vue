@@ -1,10 +1,15 @@
 <style>
-	
-display: flex;
-flex: 1;
+
+.site-body {
+	flex: 1;
+	display: flex;
+}	
 
 </style>
 
 <template>
-	<slot>
+	<div class="site-body">
+		<slot>
+	</div>
+
 </template>

@@ -1,5 +1,4 @@
 <style>
-
 	@font-face {
 		font-family:"Dalle";
 		src:url("fonts/Dalle_Typeface.eot?") format("eot"),
@@ -27,7 +26,6 @@
 	.app {
 		display: flex;
 		min-height: 100vh;
-		flex-direction: column;
 	}
 
 </style>
@@ -41,6 +39,7 @@
 	<site-body>
 
 		<site-nav>
+
 		</site-nav>
 
 		<site-main>
@@ -64,6 +63,9 @@
 
 	import SiteHeader from './components/site-header.vue'
 	import SiteBody from './components/site-body.vue'
+	import SiteMain from './components/site-main.vue'
+	import SiteNav from './components/site-nav.vue'
+	import SiteInfo from './components/site-info.vue'
 	import SiteFooter from './components/site-footer.vue'
 
 	import ProjectDisplay from './components/project-display.vue'
@@ -78,6 +80,9 @@
 		components: {
 			SiteHeader,
 			SiteFooter,
+			SiteMain,
+			SiteNav,
+			SiteInfo,
 			SiteBody,
 			ProjectDisplay,
 			ProjectDisplayContainer
