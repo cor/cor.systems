@@ -17,7 +17,7 @@
 
 <template>
 	<nav>
-		<h2>Projects</h2>
+		<h2>projects</h2>
 		<hr>
 		<ul>
 
