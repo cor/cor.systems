@@ -53,13 +53,13 @@
 
 		<site-main>
 
-			<h2 style="text-align: center; padding: 0.5rem;">Work in progress.</h2>
+			<h2 style="text-align: center; padding-top: 8rem; font-family: 'Courier New';">//TODO: Add website</h2>
 
-			<project-display-container>
+<!-- 			<project-display-container>
 				<project-display></project-display>
 				<project-display></project-display>
 			</project-display-container>
-		</site-main>
+ -->		</site-main>
 
 		<site-info>
 		</site-info>
