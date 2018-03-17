@@ -5,11 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js",
     "test": "vue-cli-service test",
     "e2e": "vue-cli-service e2e",
     "lint": "vue-cli-service lint",
     "e2e:open": "vue-cli-service e2e:open"
   },
+  "homepage": "https://github.com/cor/corcoder.com",
   "dependencies": {
     "vue": "^2.5.13",
     "vue-router": "^3.0.1",
@@ -26,6 +28,7 @@
     "chai": "^4.1.2",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
+    "vue-gh-pages": "^1.10.2",
     "vue-template-compiler": "^2.5.13"
   },
   "babel": {
