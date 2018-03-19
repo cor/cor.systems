@@ -16,10 +16,13 @@
   justify-content: center;
   align-items: center;
 }
-.info {
-  border-width: 2px;
-  border-radius: 4px;
-  padding: 32px;
+
+@include media(">=tablet") {
+  .info {
+    border-width: 2px;
+    border-radius: 4px;
+    padding: 32px;
+  }
 }
 </style>
 
