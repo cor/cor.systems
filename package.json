@@ -13,6 +13,8 @@
   },
   "homepage": "https://github.com/cor/corcoder.com",
   "dependencies": {
+    "include-media": "^1.4.9",
+    "normalize.css": "^8.0.0",
     "vue": "^2.5.13",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
