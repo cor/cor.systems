@@ -20,6 +20,7 @@ export default {
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Teko:400,700');
+@import '@/global.scss';
 
 html {
   box-sizing: border-box;
@@ -35,7 +36,7 @@ body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  color: $eerie-black;
   display: flex;
   min-height: 100vh;
   flex-direction: column;

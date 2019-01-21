@@ -6,6 +6,12 @@
 
 <script>
 export default {
-  name: 'home'
+  name: 'Home'
 }
 </script>
+
+<style scoped lang="scss">
+.home {
+  padding: 16px;
+}
+</style>
