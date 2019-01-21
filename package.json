@@ -3,56 +3,32 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --open",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "deploy": "node ./node_modules/vue-gh-pages/index.js",
-    "test": "vue-cli-service test",
-    "e2e": "vue-cli-service e2e",
     "lint": "vue-cli-service lint",
-    "e2e:open": "vue-cli-service e2e:open"
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit"
   },
-  "homepage": "https://github.com/cor/corcoder.com",
   "dependencies": {
-    "include-media": "^1.4.9",
-    "normalize.css": "^8.0.0",
-    "vue": "^2.5.13",
+    "vue": "^2.5.21",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-beta.6",
-    "@vue/cli-plugin-e2e-cypress": "^3.0.0-beta.6",
-    "@vue/cli-plugin-eslint": "^3.0.0-beta.6",
-    "@vue/cli-plugin-unit-mocha": "^3.0.0-beta.6",
-    "@vue/cli-service": "^3.0.0-beta.6",
-    "@vue/eslint-config-prettier": "^3.0.0-beta.6",
-    "@vue/test-utils": "^1.0.0-beta.10",
-    "chai": "^4.1.2",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6",
-    "vue-gh-pages": "^1.10.2",
-    "vue-template-compiler": "^2.5.13"
-  },
-  "babel": {
-    "presets": [
-      "@vue/app"
-    ]
-  },
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "plugin:vue/essential",
-      "@vue/prettier"
-    ]
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-e2e-cypress": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-plugin-unit-jest": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.21"
+  }
 }

@@ -1,41 +1,46 @@
 <template>
-  <div id="app">
+<div id="app">
+  <app-header/>
+  <app-content>
     <router-view/>
-  </div>
+  </app-content>
+  <app-footer/>
+</div>
 </template>
 
+<script>
+import AppHeader from '@/components/layout/AppHeader'
+import AppContent from '@/components/layout/AppContent'
+import AppFooter from '@/components/layout/AppFooter'
+export default {
+  name: 'App',
+  components: { AppHeader, AppContent, AppFooter }
+}
+</script>
+
 <style lang="scss">
-@import "~normalize.css/normalize";
-@import url("https://fonts.googleapis.com/css?family=Bitter:400,400i,700");
+@import url('https://fonts.googleapis.com/css?family=Teko:400,700');
 
-* {
-  color: $main-color;
-  border: 1px solid $main-color;
-  border-width: 0;
+html {
+  box-sizing: border-box;
 }
-
-h1 {
-  margin: 0;
-  margin-top: -16px;
-  font-size: 72px;
-}
-
-h2 {
-  margin-top: -10px;
-  margin-bottom: 2px;
-}
-
-p {
-  font-size: 18px;
-  margin: 0;
-  margin-top: 4px;
-}
-
 body {
   margin: 0;
-  font-family: "Bitter", serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+h1 {
+  font-family: 'Teko'
 }
 </style>
