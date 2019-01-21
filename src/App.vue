@@ -20,6 +20,7 @@ export default {
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Teko:400,700');
+@import "~normalize-scss/sass/normalize";
 @import '@/global.scss';
 
 html {
@@ -41,7 +42,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-h1 {
+h1, h2, h3, h4 {
   font-family: 'Teko'
 }
 </style>
