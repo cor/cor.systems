@@ -12,6 +12,6 @@ export default {
 
 <style scoped lang="scss">
 .app-content {
-    flex: 1;
+  flex: 1;
 }
 </style>

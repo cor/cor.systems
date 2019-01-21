@@ -10,6 +10,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "include-media": "^1.4.9",
     "normalize-scss": "^7.0.1",
     "vue": "^2.5.21",
     "vue-router": "^3.0.1",

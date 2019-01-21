@@ -2,6 +2,8 @@
 <div class="navigation">
   <router-link to="/">home</router-link>
   <router-link to="/about">about</router-link>
+  <router-link to="/cv">cv</router-link>
+  <router-link to="/contact">contact</router-link>
 </div>
 </template>
 
@@ -12,14 +14,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '@/global.scss';
-
 .navigation {
   a {
     font-family: 'Teko';
     font-size: 20px;
-    font-weight: bold;
-    color: $raspberry-pink;
     margin: 0 8px;
   }
 }

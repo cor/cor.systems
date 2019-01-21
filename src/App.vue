@@ -21,7 +21,6 @@ export default {
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Teko:400,700');
 @import "~normalize-scss/sass/normalize";
-@import '@/global.scss';
 
 html {
   box-sizing: border-box;
@@ -43,6 +42,30 @@ body {
   flex-direction: column;
 }
 h1, h2, h3, h4 {
-  font-family: 'Teko'
+  font-family: 'Teko';
+  margin: 8px 8px -16px 0;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 19px;
+  line-height: 1.4;
+  margin: 8px 0;
+}
+
+a {
+  font-weight: bold;
+  color: $raspberry-pink;
 }
 </style>

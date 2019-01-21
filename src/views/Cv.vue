@@ -1,8 +1,7 @@
 <template>
-  <text-page>
-    <h2>About</h2>
-    <p>This is an about page</p>
-  </text-page>
+<text-page>
+    <h2>Curriculum Vitae</h2>
+</text-page>
 </template>
 
 <script>

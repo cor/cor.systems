@@ -1,6 +1,7 @@
 <template>
 <div class="app-header">
   <h1>CorCoder</h1>
+  <span class="subtitle">Development</span>
   <navigation></navigation>
 </div>
 </template>
@@ -15,17 +16,14 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '@/global.scss';
 
 .app-header {
-  border-bottom: 1px solid $eerie-black;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  h1 {
-    margin: 8px;
-    margin-top: 16px;
+  .subtitle {
+    margin-top: -10px;
   }
 }
 a {
