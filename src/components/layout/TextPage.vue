@@ -14,10 +14,12 @@
 }
 .text-page-content {
   /* optimal width for legibility: https://baymard.com/blog/line-length-readability */
-
   @include media(">sm") {
     max-width: 560px;
     width: 560px;
+  }
+  @include media ("<sm") {
+      flex: 1;
   }
 }
 </style>
