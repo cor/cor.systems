@@ -1,8 +1,8 @@
 <template>
-<text-page>
+  <text-page>
     <h2>Curriculum Vitae</h2>
     <p>Will be published shortly.</p>
-</text-page>
+  </text-page>
 </template>
 
 <script>
