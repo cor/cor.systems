@@ -1,14 +1,44 @@
 [
     {
+        "title": "TicTacoToeJS",
+        "date": "April-August 2014",
+        "description": "A web version of my TicTacoToe game written in JavaScript/jQuery. Includes lots of animations",
+        "githubPage": "cor/TicTacoToeJS",
+        "technologies": [ "JavaScript", "jQuery", "CSS", "HTML" ]
+    },
+    {
+        "title": "Buttonmasher",
+        "date": "March-August 2014",
+        "description": "A web based mastermind style code cracking game in which you need to find the SHA-512 encrypted code by bruteforce/guessing it.",
+        "githubPage": "cor/Buttonmasher",
+        "technologies": [ "JavaScript", "jQuery", "CSS", "HTML", "Encryption" ]
+    },
+    {
+        "title": "TicTacoToe-swift",
+        "date": "July 2014",
+        "description": "An iOS version of my TicTacoToe game written in Swift",
+        "githubPage": "cor/TicTacoToe-swift",
+        "technologies": [ "Swift", "iOS" ]
+    },
+    {
+        "title": "Ultimedia",
+        "date": "May-June 2014",
+        "description": "Ultimedia is a static news site I made for a school project",
+        "githubPage": "cor/ultimedia",
+        "technologies": [ "HTML", "CSS" ]
+    },
+    {
         "title": "swift-canvas",
         "date": "June 2014",
         "description": "A small drawing program written in Swift playgrounds that uses emoji to render simple geometric drawings.",
-        "githubPage": "cor/swift-canvas"
+        "githubPage": "cor/swift-canvas",
+        "technologies": [ "Swift", "iOS" ]
     },
     {
         "title": "TicTacoToe",
         "date": "February 2014",
         "description": "This is my oldest project on GitHub, and thus the first project I made using a source control system. It's a console based Tic Tac Toe game written in Java.",
-        "githubPage": "cor/tictacotoe"
+        "githubPage": "cor/tictacotoe",
+        "technologies": [ "Java" ]
     }
 ]
