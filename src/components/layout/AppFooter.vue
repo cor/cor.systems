@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="app-footer">
-      <p>&copy; {{year}} Cor Pruijs</p>
+      <p><i></i>&copy; {{year}} Cor Pruijs</p>
     </div>
   </div>
 </template>
@@ -21,5 +21,6 @@ export default {
 p {
   margin: 8px;
   text-align: center;
+  font-size: 15px
 }
 </style>
