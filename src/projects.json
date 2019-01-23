@@ -1,5 +1,34 @@
 [
     {
+        "title": "grammatical-gender-trainer",
+        "date": "February 2015",
+        "description": "An iOS app used for studying grammatical genders (such as der, die and das in German). Uses the API of wrts, a Dutch word studying site, to import word lists.",
+        "githubPage": "cor/grammatical-gender-trainer",
+        "technologies": ["iOS", "Swift", "AutoLayout", "HTTP", "API"],
+        "contributors": ["Jurriaan Pruijs"]
+    },
+    {
+        "title": "PeasantWars",
+        "date": "December 2014 - January 2015",
+        "description": "A top down shooter prototype written in Java",
+        "githubPage": "cor/PeasantWars",
+        "technologies": ["Game", "Java"],
+        "contributors": ["Leon Grasmeijer"]
+    },
+    {
+        "title": "get-out",
+        "date": "October-November 2014",
+        "description": "A top down shooter written in Swift using SpriteKit",
+        "githubPage" : "cor/get-out",
+        "technologies": ["Game", "Swift", "iOS", "SpriteKit"]
+    },
+    {
+        "title": "supercalc",
+        "date": "July 2014",
+        "description": "A simple iOS calculator app written in Swift as an exercise of Stanford's iTunes U course on iOS development.",
+        "technologies": [ "Swift", "iOS"]
+    },
+    {
         "title": "TicTacoToeJS",
         "date": "April-August 2014",
         "description": "A web version of my TicTacoToe game written in JavaScript/jQuery. Includes lots of animations",

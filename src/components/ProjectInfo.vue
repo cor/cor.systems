@@ -4,7 +4,8 @@
   <p class="project-date">{{ project.date }}</p>
   <p class="project-description">{{ project.description }} </p>
   <div class="technology-badge" v-for="technology in project.technologies" :key="technology">{{technology}}</div>
-  <p><a :href="projectLink">View on GitHub</a></p>
+  <p><i>{{ contributors }}</i></p>
+  <p class="project-link"><a :href="projectLink">View on GitHub</a></p>
 </div>
 </template>
 
@@ -14,6 +15,31 @@ export default {
   computed: {
     projectLink () {
       return `https://github.com/${this.project.githubPage}`
+    },
+    contributors () {
+      if (this.project.contributors) {
+        let contributorSentence = 'Made in cooperation with '
+        const contributorCount = this.project.contributors.length
+
+        for (let i = 0; i < contributorCount; i++) {
+          const contributor = this.project.contributors[i]
+          contributorSentence += contributor
+
+          // there are more contributors
+          if (i + 1 < contributorCount) {
+            if (i + 2 === contributorCount) {
+              // This is the secondth last contributor, add the word "and",
+              contributorSentence += ' and '
+            } else {
+              // this is not the secondth last contributor, add the word ", "
+              contributorSentence += ', '
+            }
+          }
+        }
+
+        return contributorSentence
+      }
+      return null
     }
   }
 }
@@ -25,7 +51,7 @@ h3 {
 }
 .project-date {
   display: inline-block;
-  margin-bottom: 0;
+  margin: 0;
   font-size: 15px;
 }
 
@@ -39,10 +65,15 @@ h3 {
   font-family: 'Teko', sans-serif;
   background-color: $raspberry-pink;
   padding: 2px 10px 0 10px;
-  margin: 0 4px;
+  margin: 0 4px 8px 4px;
   border-radius: 4px;
   &:first-of-type {
     margin-left: 0;
   }
+}
+
+.project-link {
+  margin-top: 0;
+  font-size: 18px;
 }
 </style>
