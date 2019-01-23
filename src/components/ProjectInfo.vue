@@ -2,7 +2,7 @@
 <div class="project-info">
   <h3>{{ project.title }}</h3>
   <p class="project-date">{{ project.date }}</p>
-  <p>{{ project.description }} </p>
+  <p class="project-description">{{ project.description }} </p>
   <p><a :href="projectLink">View on GitHub</a></p>
 </div>
 </template>
@@ -24,5 +24,11 @@ h3 {
 }
 .project-date {
   display: inline-block;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.project-description {
+  margin-top: 0;
 }
 </style>
