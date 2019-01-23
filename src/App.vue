@@ -19,8 +19,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Teko:400,700');
-@import "~normalize-scss/sass/normalize";
+ @import url('https://fonts.googleapis.com/css?family=Lato|Teko:700');
+ @import "~normalize-scss/sass/normalize";
 
 html {
   box-sizing: border-box;
@@ -33,7 +33,7 @@ body {
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $eerie-black;
@@ -42,7 +42,7 @@ body {
   flex-direction: column;
 }
 h1, h2, h3, h4 {
-  font-family: 'Teko';
+  font-family: 'Teko', sans-serif;
   margin: 8px 8px -16px 0;
 }
 
@@ -55,6 +55,7 @@ h2 {
 }
 
 h3 {
+  margin-top: 10px;
   font-size: 30px;
 }
 
@@ -65,6 +66,7 @@ p {
 }
 
 a {
+  font-family: 'Teko', sans-serif;
   font-weight: bold;
   color: $raspberry-pink;
 }

@@ -1,7 +1,7 @@
 <template>
 <div class="app-header">
   <h1>CorCoder</h1>
-  <span class="subtitle">Development</span>
+  <span class="subtitle">Developer</span>
   <navigation></navigation>
 </div>
 </template>
