@@ -1,18 +1,7 @@
 <template>
 <text-page>
     <h2>Curriculum Vitae</h2>
-    <p>CV CV CV CV CV CV </p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <p>ketel</p>
+    <p>Will be published shortly.</p>
 </text-page>
 </template>
 

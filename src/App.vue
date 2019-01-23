@@ -55,7 +55,7 @@ h2 {
 }
 
 h3 {
-  margin-top: 10px;
+  margin-top: 30px;
   font-size: 30px;
 }
 
