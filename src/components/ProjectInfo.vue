@@ -36,6 +36,7 @@ export default {
             }
           }
         }
+        contributorSentence += '.'
 
         return contributorSentence
       }

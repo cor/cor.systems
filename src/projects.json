@@ -1,10 +1,59 @@
 [
     {
-        "title": "swong",
-        "date": "July-October 2014",
-        "description": "Swift + Pong = Swong, an iOS game made with Swift and Apple's SpriteKit framework. Has local multiplayer, lots of customizability options and nice animations. Also includes a promotion website that I made for a scool project. The website has a JavaScript canvas based version of the game running in the background.",
-        "technologies": ["Game", "iOS", "Swift", "SpriteKit", "Art", "Web", "JavaScript", "canvas", "CSS"],
-        "githubPage": "cor/swong"
+        "title": "One Hour Game Jam 164",
+        "date": "June 2018",
+        "description": "My third One Hour Game Jam, which is a development competition in which you need to create an entire game in one hour. The theme was \"your favorite game but the most simplest possible\", so I made a mini version of Valve's Portal.",
+        "technologies": ["Game", "Unity", "C#"],
+        "githubPage": "cor/1hgj-164"
+    },
+    {
+        "title": "One Hour Game Jam 163",
+        "date": "June 2018",
+        "description": "My secondth One Hour Game Jam, which is a development competition in which you need to create an entire game in one hour. The theme was \"Unexpected\", so I made a 2D game in which you need to click as many randomly falling objects as possiblie within one minute, with an unexpected surprise ending.",
+        "technologies": ["Game", "Unity", "C#"],
+        "githubPage": "cor/1hgj-163"
+    },
+    {
+        "title": "PWSlayer",
+        "date": "October 2016 - February 2017",
+        "description": "A rouge like game experiment made for a school project, which includes a dungeon generating system and an inventory/item management system. In this project I worked with a sound FX artist, which was a great experience.",
+        "technologies": ["Game", "Unity", "C#", "Art", "Sound FX"],
+        "contributors": ["Stefan Boneschanscher", "Duncan de Heusden"]
+    },
+    {
+        "title": "studiokwastenzo.nl",
+        "date": "December 2016",
+        "description": "An information website about art workshops/courses. This website is designed together with my client to be made exactly like the client wants. It is a simple text based static website, with a responsive design and some fun over the top animations.",
+        "technologies": ["Web", "JavaScript", "gulp", "Babel", "CSS", "SCSS"]
+    },
+    {
+        "title": "Woording",
+        "date": "2015-2016",
+        "description": "Woording is a service that lets you study languages. It was a really big school project and it included an API, a web SPA (which was first written in AngularJS, and later rewritten in Vue.js), an iOS app and an Android app. We even dockerized our application. I helped building every part, except for the Android app. Creating this project was an incredibly valuable experience because I learned a lot about developing applications and working together with a team. Even though I really cringe when I look back at how bad some of the code was, it was still one of my most valuable programming experiences.",
+        "technologies": ["Python", "Flask", "API", "HTTP", "Web", "JavaScript", "Vue.js", "Vuex", "Vue Router", "CSS", "SCSS", "Docker", "bash", "nginx", "iOS", "Swift"],
+        "githubPage": "woording",
+        "contributors": ["Philip de Bruin", "Leon Grasmeijer"]
+    },
+    {
+        "title": "Redacted artist",
+        "date": "2016",
+        "description": "I worked professionally for an artist and made a nice responsive portfolio website, which included a back end painting management system based on bash scripts and Imagemagick. Unfortunately this website could not be launched due to personal circumstances in the artist's life, which is why it was never published.",
+        "technologies": ["Web", "JavaScript", "gulp", "Babel", "HTML", "CSS", "SCSS", "PhotoSwipe", "bash", "GitHub Pages"]
+    },
+    {
+        "title": "blopper",
+        "date": "May 2016",
+        "description": "A tiny iOS app used for cheating at the real life \"blop game\".",
+        "technologies": ["iOS", "Swift"],
+        "githubPage": "cor/blopper"
+    },
+    {
+        "title": "altitrial",
+        "date": "April 2016",
+        "description": "A game prototype in which you drive in a car, and fly from building to building like the scene in Fast and the Furious 7. The game includes a script that automatically generates skyscrapers based on a data model that is editable within the Unity 3D editor, and editting the model shows the resulting 3D object instantly.",
+        "technologies": ["Game", "Unity", "C#", "Blender"],
+        "githubPage": "cor/altitrial",
+        "contributors": ["Niels van Harten", "Leon Grasmeijer"]
     },
     {
         "title": "Ludum Dare 34",
@@ -22,12 +71,25 @@
         "githubPage": "cor/php-school-assignments"
     },
     {
+        "title": "One Hour Game Jam 19",
+        "date": "August 2015",
+        "description": "My first One Hour Game Jam, which is a development competition in which you need to create an entire game in one hour. The theme was \"Rock Simulator\", so I made a 2D survival game in which you walk/jump around a tiny planet and avoid getting hit by incomming meteors.",
+        "technologies": ["Game", "Unity"],
+        "githubPage": "cor/RockSimulator"
+    },
+    {
         "title": "Ludum Dare 33",
         "date": "August 2015",
         "description": "LD33 is the secondth game development contest I entered. The objective of this contentest was to make a game in 24 hours based on the theme \"You are the Monster\". We made a top down monster game in which you need to defend buildings by eating incomming attackers. Each level is randomly generated, and gets more difficult through a few algorithms. We used a Travis CI pipeline to automatically generate game builds in order to improve development efficiency and collaboration.",
         "technologies": ["Game", "Unity", "Art", "Sound FX", "AI", "CI", "Travis CI"],
         "contributors": ["Jurriaan Pruijs"]
 
+    },
+    {
+        "title": "corinehazeleger.com",
+        "date": "May-April 2015",
+        "description": "This is my first professional web development project. This website is designed together with my client to be made exactly like the client wants. It's a responsive art portfolio site, which includes a PhotoSwipe powered gallery.",
+        "technologies": ["Web", "HTML", "CSS", "JavaScript", "PhotoSwipe"]
     },
     {
         "title": "ThrowBot",
@@ -81,11 +143,24 @@
         "contributors": ["Leon Grasmeijer"]
     },
     {
+        "title": "BinaryConverter",
+        "date": "November 2014",
+        "description": "An iOS app that converts numbers in binary, octal, decimal and hexadecimal numeral systems.",
+        "technologies": ["iOS", "Swift"]
+    },
+    {
         "title": "get-out",
         "date": "October-November 2014",
         "description": "A top down shooter written in Swift using SpriteKit",
         "githubPage" : "cor/get-out",
         "technologies": ["Game", "Swift", "iOS", "SpriteKit"]
+    },
+    {
+        "title": "swong",
+        "date": "July-October 2014",
+        "description": "Swift + Pong = Swong, an iOS game made with Swift and Apple's SpriteKit framework. Has local multiplayer, lots of customizability options and nice animations. Also includes a promotion website that I made for a scool project. The website has a JavaScript canvas based version of the game running in the background.",
+        "technologies": ["Game", "iOS", "Swift", "SpriteKit", "Art", "Web", "JavaScript", "canvas", "CSS"],
+        "githubPage": "cor/swong"
     },
     {
         "title": "supercalc",
@@ -127,7 +202,13 @@
         "date": "June 2014",
         "description": "A small drawing program written in Swift playgrounds that uses emoji to render simple geometric drawings.",
         "githubPage": "cor/swift-canvas",
-        "technologies": [ "Swift", "iOS" ]
+        "technologies": ["iOS", "Swift"]
+    },
+    {
+        "title": "darrep.com",
+        "date": "June 2014",
+        "description": "An old and outdated site displaying a few apps.",
+        "technologies": ["Web", "HTML", "CSS", "JavaScript"]
     },
     {
         "title": "PirateGame",
