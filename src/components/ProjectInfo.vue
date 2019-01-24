@@ -5,7 +5,7 @@
   <p class="project-description">{{ project.description }} </p>
   <div class="technology-badge" v-for="technology in project.technologies" :key="technology">{{technology}}</div>
   <p><i>{{ contributors }}</i></p>
-  <p class="project-link"><a :href="projectLink">View on GitHub</a></p>
+  <p class="project-link" v-if="projectLink"><a :href="projectLink">View on GitHub</a></p>
 </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
   props: ['project'],
   computed: {
     projectLink () {
-      return `https://github.com/${this.project.githubPage}`
+      return this.project.githubPage ? `https://github.com/${this.project.githubPage}` : null
     },
     contributors () {
       if (this.project.contributors) {

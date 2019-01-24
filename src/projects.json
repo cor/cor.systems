@@ -1,5 +1,36 @@
 [
     {
+
+    },
+    {
+        "title": "CandyMachine",
+        "date": "May-June 2015",
+        "description": "A Java Swing candy machine UI demo made for a school project.",
+        "githubPage": "cor/CandyMachine",
+        "technologies": ["Java", "Swing"]
+    },
+    {
+        "title": "ClockJS",
+        "date": "May 2015",
+        "description": "A JavaScript canvas based real time customizable clock drawing program I made for a school art project. (including a version based on Pink Floyd's 'Time')",
+        "githubPage" : "cor/ClockJS",
+        "technologies": ["Web", "JavaScript", "canvas"]
+    },
+    {
+        "title": "CannibalFish",
+        "date": "April 2015",
+        "description": "A Unity prototype clone of the famous 'Ugh' game in which you need to eat other fishes in order to survive.",
+        "githubPage": "cor/CannibalFish",
+        "technologies": ["Game", "Unity", "C#", "Pixelart"]
+    },
+    {
+        "title": "Ludum Dare 32",
+        "date": "April 2015",
+        "description": "LD32 is the first game development contest I entered. The objective of this contentest was to make a game in 24 hours based on the theme \"An Unconventional Weapon \". I made a side scrolling adventure game in which you have a mysterious pizza blasting gun named Project Pizza.",
+        "githubPage": "cor/LD32",
+        "technologies": ["Game", "Unity", "C#", "Pixelart"]
+    },
+    {
         "title": "grammatical-gender-trainer",
         "date": "February 2015",
         "description": "An iOS app used for studying grammatical genders (such as der, die and das in German). Uses the API of wrts, a Dutch word studying site, to import word lists.",
@@ -26,6 +57,7 @@
         "title": "supercalc",
         "date": "July 2014",
         "description": "A simple iOS calculator app written in Swift as an exercise of Stanford's iTunes U course on iOS development.",
+        "githubPage": "cor/supercalc",
         "technologies": [ "Swift", "iOS"]
     },
     {
@@ -64,10 +96,17 @@
         "technologies": [ "Swift", "iOS" ]
     },
     {
+        "title": "PirateGame",
+        "date": "May 2014",
+        "description": "A super simple pirate styled iOS game written in Objective-C.",
+        "githubPage": "cor/PirateGame",
+        "technologies": ["Game", "iOS", "Objective-C"]
+    },
+    {
         "title": "TicTacoToe",
         "date": "February 2014",
         "description": "This is my oldest project on GitHub, and thus the first project I made using a source control system. It's a console based Tic Tac Toe game written in Java.",
         "githubPage": "cor/tictacotoe",
-        "technologies": [ "Java" ]
+        "technologies": ["Game", "Java"]
     }
 ]
