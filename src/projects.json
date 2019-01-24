@@ -1,6 +1,40 @@
 [
     {
+        "title": "swong",
+        "date": "July-October 2014",
+        "description": "Swift + Pong = Swong, an iOS game made with Swift and Apple's SpriteKit framework. Has local multiplayer, lots of customizability options and nice animations. Also includes a promotion website that I made for a scool project. The website has a JavaScript canvas based version of the game running in the background.",
+        "technologies": ["Game", "iOS", "Swift", "SpriteKit", "Art", "Web", "JavaScript", "canvas", "CSS"],
+        "githubPage": "cor/swong"
+    },
+    {
+        "title": "Ludum Dare 34",
+        "date": "December 2015",
+        "description": "LD34 is the third game development contest I entered. I made a top down space shooter with pixel art in Unity3D. Due to lack of time I did not submit my creation, as I could not finish the game.",
+        "technologies": ["Game", "Unity", "Art"],
+        "githubPage": "cor/LD34"
 
+    },
+    {
+        "title": "php-school-assignments",
+        "date": "December 2015",
+        "description": "Some super simple PHP exercises I had to do for school.",
+        "technologies": ["PHP"],
+        "githubPage": "cor/php-school-assignments"
+    },
+    {
+        "title": "Ludum Dare 33",
+        "date": "August 2015",
+        "description": "LD33 is the secondth game development contest I entered. The objective of this contentest was to make a game in 24 hours based on the theme \"You are the Monster\". We made a top down monster game in which you need to defend buildings by eating incomming attackers. Each level is randomly generated, and gets more difficult through a few algorithms. We used a Travis CI pipeline to automatically generate game builds in order to improve development efficiency and collaboration.",
+        "technologies": ["Game", "Unity", "Art", "Sound FX", "AI", "CI", "Travis CI"],
+        "contributors": ["Jurriaan Pruijs"]
+
+    },
+    {
+        "title": "ThrowBot",
+        "date": "July 2015",
+        "description": "A Unity based 3D missle launcher with AI that teaches itself to hit a target.",
+        "githubPage": "cor/ThrowBot",
+        "technologies": ["Game", "Unity", "AI"]
     },
     {
         "title": "CandyMachine",
@@ -26,7 +60,7 @@
     {
         "title": "Ludum Dare 32",
         "date": "April 2015",
-        "description": "LD32 is the first game development contest I entered. The objective of this contentest was to make a game in 24 hours based on the theme \"An Unconventional Weapon \". I made a side scrolling adventure game in which you have a mysterious pizza blasting gun named Project Pizza.",
+        "description": "LD32 is the first game development contest I entered. The objective of this contentest was to make a game in 24 hours based on the theme \"An Unconventional Weapon\". I made a side scrolling adventure game in which you have a mysterious pizza blasting gun named Project Pizza.",
         "githubPage": "cor/LD32",
         "technologies": ["Game", "Unity", "C#", "Pixelart"]
     },
