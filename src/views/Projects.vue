@@ -1,7 +1,8 @@
 <template>
   <text-page>
     <h2>Projects</h2>
-    <p>This page is still in production, all other projects will be added shortly.</p>
+    <p>These are all projects I worked on. Some of them are personal, others were made for my study, and others are professional projects. The older the project, the worse the code is, but each project contributed to my programming experience and learning process.</p>
+    <p><i>This page is still under construction, and will be updated shortly.</i></p>
 
     <project-info v-for="project in projects" :key="project.title" :project="project"/>
 

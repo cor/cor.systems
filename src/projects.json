@@ -1,5 +1,11 @@
 [
     {
+        "title": "Unboxing Solutions",
+        "date": "2017-2018",
+        "description": "I worked on an unreleased project for Unboxing Solutions. In this project I fulfilled the role of designing and building an entire Vue.js SPA, which included interacting a lot with a RESTful API. I worked closely together with the lead back end developer, and had meaningful discussions on the API design and it's interaction with the client side aplication. We switched between a lot of different technologies, and I learned a lot from the process of building this application. I especially learned a lot about designing a great front-end web SPA architecture, optimizing user experiences and interacting with an API in a transparent, real time way. Working for Unboxing Solutions has by far been my most valuable programming experience.",
+        "technologies": ["Web", "Vue.js", "Vuex", "Vue Router", "vue-cli", "axios", "API", "SCSS", "CSS", "JavaScript", "WebPack", "Design", "HTML", "HTTPS"]
+    },
+    {
         "title": "One Hour Game Jam 164",
         "date": "June 2018",
         "description": "My third One Hour Game Jam, which is a development competition in which you need to create an entire game in one hour. The theme was \"your favorite game but the most simplest possible\", so I made a mini version of Valve's Portal.",
@@ -14,17 +20,31 @@
         "githubPage": "cor/1hgj-163"
     },
     {
+        "title": "generhizo",
+        "date": "April 2018",
+        "description": "A dynamic iOS rhizomatic art piece that uses an iPad's gyroscope to create abstract rhizomatic shapes. It includes a lot of fun sliders and options to play with.",
+        "technologies": ["iOS", "Swift", "Art"],
+        "githubPage": "cor/generhizo"
+    },
+    {
         "title": "PWSlayer",
         "date": "October 2016 - February 2017",
         "description": "A rouge like game experiment made for a school project, which includes a dungeon generating system and an inventory/item management system. In this project I worked with a sound FX artist, which was a great experience.",
         "technologies": ["Game", "Unity", "C#", "Art", "Sound FX"],
+        "githubPage": "cor/pwslayer",
         "contributors": ["Stefan Boneschanscher", "Duncan de Heusden"]
+    },
+    {
+        "title": "mariandijkhuizen.com",
+        "date": "2016",
+        "description": "A promotional site I made for Marian Dijkhuizen, a german mezzosoprano. This website is designed together with my client to look exactly like the client wants. It includes an about page, a lot of audio samples (powered by a custom built audio player and a customized Vimeo player), a photo gallery powered by PhotoSwipe and three blog-like pages that the client can edit using markdown files.",
+        "technologies": ["Web", "HTML", "CSS", "SCSS", "JavaScript", "babel", "gulp", "jekyll", "localization", "Markdown", "GitHub Pages"]
     },
     {
         "title": "studiokwastenzo.nl",
         "date": "December 2016",
-        "description": "An information website about art workshops/courses. This website is designed together with my client to be made exactly like the client wants. It is a simple text based static website, with a responsive design and some fun over the top animations.",
-        "technologies": ["Web", "JavaScript", "gulp", "Babel", "CSS", "SCSS"]
+        "description": "An information website about art workshops/courses. This website is designed together with my client to look exactly like the client wants. It is a simple text based static website, with a responsive design and some fun over the top animations.",
+        "technologies": ["Web", "JavaScript", "gulp", "Babel", "CSS", "SCSS", "GitHub Pages"]
     },
     {
         "title": "Woording",
@@ -39,6 +59,13 @@
         "date": "2016",
         "description": "I worked professionally for an artist and made a nice responsive portfolio website, which included a back end painting management system based on bash scripts and Imagemagick. Unfortunately this website could not be launched due to personal circumstances in the artist's life, which is why it was never published.",
         "technologies": ["Web", "JavaScript", "gulp", "Babel", "HTML", "CSS", "SCSS", "PhotoSwipe", "bash", "GitHub Pages"]
+    },
+    {
+        "title": "tree-generator",
+        "date": "June 2016",
+        "description": "An iOS abstract tree generator that I made as an art project for school.",
+        "technologies": ["iOS", "Swift", "Art"],
+        "githubPage": "cor/tree-generator"
     },
     {
         "title": "blopper",
@@ -71,6 +98,12 @@
         "githubPage": "cor/php-school-assignments"
     },
     {
+        "title": "linkline.nl",
+        "date": "July-November 2015",
+        "description": "An administrative buisness info site. This website has a responsive design that is designed together with my client to look exactly like the client wants.",
+        "technologies": ["Web", "HTML", "CSS", "SCSS", "JavaScript", "gulp", "Babel", "GitHub Pages"]
+    },
+    {
         "title": "One Hour Game Jam 19",
         "date": "August 2015",
         "description": "My first One Hour Game Jam, which is a development competition in which you need to create an entire game in one hour. The theme was \"Rock Simulator\", so I made a 2D survival game in which you walk/jump around a tiny planet and avoid getting hit by incomming meteors.",
@@ -88,8 +121,8 @@
     {
         "title": "corinehazeleger.com",
         "date": "May-April 2015",
-        "description": "This is my first professional web development project. This website is designed together with my client to be made exactly like the client wants. It's a responsive art portfolio site, which includes a PhotoSwipe powered gallery.",
-        "technologies": ["Web", "HTML", "CSS", "JavaScript", "PhotoSwipe"]
+        "description": "This is my first professional web development project. This website has a responsive design that is designed together with my client to look exactly like the client wants. It's an art portfolio site, which includes a PhotoSwipe powered gallery.",
+        "technologies": ["Web", "HTML", "CSS", "JavaScript", "PhotoSwipe", "GitHub Pages"]
     },
     {
         "title": "ThrowBot",
