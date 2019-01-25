@@ -66,7 +66,7 @@ h3 {
   font-family: 'Teko', sans-serif;
   background-color: $raspberry-pink;
   padding: 2px 10px 0 10px;
-  margin: 0 4px 8px 4px;
+  margin: 8px 8px 0 0;
   border-radius: 4px;
   &:first-of-type {
     margin-left: 0;
