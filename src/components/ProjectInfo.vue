@@ -1,10 +1,10 @@
 <template>
 <div class="project-info">
   <h3>{{ project.title }}</h3>
-  <p class="project-date">{{ project.date }}</p>
+  <p class="project-date">{{ project.type + ', ' + project.date }}</p>
   <p class="project-description">{{ project.description }} </p>
   <div class="technology-badge" v-for="technology in project.technologies" :key="technology">{{technology}}</div>
-  <p><i>{{ contributors }}</i></p>
+  <p class="contributors-line"><i>{{ contributors }}</i></p>
   <p class="project-link" v-if="projectLink"><a :href="projectLink">View on GitHub</a></p>
 </div>
 </template>
@@ -50,10 +50,16 @@ export default {
 h3 {
   display: inline-block;
 }
+
+.contributors-line {
+  font-size: 16px;
+}
+
 .project-date {
   display: inline-block;
   margin: 0;
   font-size: 15px;
+  font-style: italic;
 }
 
 .project-description {
@@ -66,7 +72,7 @@ h3 {
   font-family: 'Teko', sans-serif;
   background-color: $raspberry-pink;
   padding: 2px 10px 0 10px;
-  margin: 8px 8px 0 0;
+  margin: 4px 8px 4px 0;
   border-radius: 4px;
   &:first-of-type {
     margin-left: 0;

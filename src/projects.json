@@ -1,19 +1,29 @@
 [
     {
+        "title": "This website",
+        "type": "Professional",
+        "date": "January 2019",
+        "description": "It was time to finally make a nice portfolio site. This site is used to showcase who I am and what I've worked on. I generated this project list using a Vue component that parses a projects.json file, and it works beautifully.",
+        "technologies": ["Web", "Vue.js", "Vuex", "Vue Router", "vue-cli", "SCSS", "CSS", "JavaScript", "WebPack", "Babel", "Design", "HTML", "Affinity Designer"]
+    },
+    {
         "title": "Unboxing Solutions",
+        "type": "Professional",
         "date": "2017-2018",
         "description": "I worked on an unreleased project for Unboxing Solutions. In this project I fulfilled the role of designing and building an entire Vue.js SPA, which included interacting a lot with a RESTful API. I worked closely together with the lead back end developer, and had meaningful discussions on the API design and it's interaction with the client side aplication. We switched between a lot of different technologies, and I learned a lot from the process of building this application. I especially learned a lot about designing a great front-end web SPA architecture, optimizing user experiences and interacting with an API in a transparent, real time way. Working for Unboxing Solutions has by far been my most valuable programming experience.",
-        "technologies": ["Web", "Vue.js", "Vuex", "Vue Router", "vue-cli", "axios", "API", "SCSS", "CSS", "JavaScript", "WebPack", "Design", "HTML", "HTTPS"]
+        "technologies": ["Web", "Vue.js", "Vuex", "Vue Router", "vue-cli", "axios", "API", "SCSS", "CSS", "JavaScript", "WebPack", "Babel", "Design", "HTML", "HTTPS", "Affinity Designer"]
     },
     {
         "title": "One Hour Game Jam 164",
+        "type": "Personal",
         "date": "June 2018",
-        "description": "My third One Hour Game Jam, which is a development competition in which you need to create an entire game in one hour. The theme was \"your favorite game but the most simplest possible\", so I made a mini version of Valve's Portal.",
-        "technologies": ["Game", "Unity", "C#"],
+        "description": "My third One Hour Game Jam, which is a development competition in which you need to create an entire game in one hour. The theme was \"your favorite game but the most simplest possible\", so I made a tiny version of Valve's Portal.",
+        "technologies": ["Game", "Unity", "C#", "Art", "Sketch"],
         "githubPage": "cor/1hgj-164"
     },
     {
         "title": "One Hour Game Jam 163",
+        "type": "Personal",
         "date": "June 2018",
         "description": "My secondth One Hour Game Jam, which is a development competition in which you need to create an entire game in one hour. The theme was \"Unexpected\", so I made a 2D game in which you need to click as many randomly falling objects as possiblie within one minute, with an unexpected surprise ending.",
         "technologies": ["Game", "Unity", "C#"],
@@ -21,6 +31,7 @@
     },
     {
         "title": "generhizo",
+        "type": "Study",
         "date": "April 2018",
         "description": "A dynamic iOS rhizomatic art piece that uses an iPad's gyroscope to create abstract rhizomatic shapes. It includes a lot of fun sliders and options to play with.",
         "technologies": ["iOS", "Swift", "Art"],
@@ -28,6 +39,7 @@
     },
     {
         "title": "PWSlayer",
+        "type": "Study",
         "date": "October 2016 - February 2017",
         "description": "A rouge like game experiment made for a school project, which includes a dungeon generating system and an inventory/item management system. In this project I worked with a sound FX artist, which was a great experience.",
         "technologies": ["Game", "Unity", "C#", "Art", "Sound FX"],
@@ -36,32 +48,37 @@
     },
     {
         "title": "mariandijkhuizen.com",
+        "type": "Professional",
         "date": "2016",
         "description": "A promotional site I made for Marian Dijkhuizen, a german mezzosoprano. This website is designed together with my client to look exactly like the client wants. It includes an about page, a lot of audio samples (powered by a custom built audio player and a customized Vimeo player), a photo gallery powered by PhotoSwipe and three blog-like pages that the client can edit using markdown files.",
-        "technologies": ["Web", "HTML", "CSS", "SCSS", "JavaScript", "babel", "gulp", "jekyll", "localization", "Markdown", "GitHub Pages"]
+        "technologies": ["Web", "HTML", "CSS", "SCSS", "JavaScript", "babel", "gulp", "jekyll", "localization", "Markdown", "GitHub Pages", "Sketch"]
     },
     {
         "title": "studiokwastenzo.nl",
+        "type": "Professional",
         "date": "December 2016",
         "description": "An information website about art workshops/courses. This website is designed together with my client to look exactly like the client wants. It is a simple text based static website, with a responsive design and some fun over the top animations.",
-        "technologies": ["Web", "JavaScript", "gulp", "Babel", "CSS", "SCSS", "GitHub Pages"]
+        "technologies": ["Web", "JavaScript", "gulp", "Babel", "CSS", "SCSS", "GitHub Pages", "Sketch"]
     },
     {
         "title": "Woording",
+        "type": "Study",
         "date": "2015-2016",
         "description": "Woording is a service that lets you study languages. It was a really big school project and it included an API, a web SPA (which was first written in AngularJS, and later rewritten in Vue.js), an iOS app and an Android app. We even dockerized our application. I helped building every part, except for the Android app. Creating this project was an incredibly valuable experience because I learned a lot about developing applications and working together with a team. Even though I really cringe when I look back at how bad some of the code was, it was still one of my most valuable programming experiences.",
-        "technologies": ["Python", "Flask", "API", "HTTP", "Web", "JavaScript", "Vue.js", "Vuex", "Vue Router", "CSS", "SCSS", "Docker", "bash", "nginx", "iOS", "Swift"],
+        "technologies": ["Python", "Flask", "API", "HTTP", "Web", "JavaScript", "Vue.js", "Vuex", "Vue Router", "CSS", "SCSS", "Docker", "bash", "nginx", "iOS", "Swift", "Sketch"],
         "githubPage": "woording",
         "contributors": ["Philip de Bruin", "Leon Grasmeijer"]
     },
     {
         "title": "Redacted artist",
+        "type": "Professional",
         "date": "2016",
         "description": "I worked professionally for an artist and made a nice responsive portfolio website, which included a back end painting management system based on bash scripts and Imagemagick. Unfortunately this website could not be launched due to personal circumstances in the artist's life, which is why it was never published.",
         "technologies": ["Web", "JavaScript", "gulp", "Babel", "HTML", "CSS", "SCSS", "PhotoSwipe", "bash", "GitHub Pages"]
     },
     {
         "title": "tree-generator",
+        "type": "Study",
         "date": "June 2016",
         "description": "An iOS abstract tree generator that I made as an art project for school.",
         "technologies": ["iOS", "Swift", "Art"],
@@ -69,6 +86,7 @@
     },
     {
         "title": "blopper",
+        "type": "Personal",
         "date": "May 2016",
         "description": "A tiny iOS app used for cheating at the real life \"blop game\".",
         "technologies": ["iOS", "Swift"],
@@ -76,6 +94,7 @@
     },
     {
         "title": "altitrial",
+        "type": "Study",
         "date": "April 2016",
         "description": "A game prototype in which you drive in a car, and fly from building to building like the scene in Fast and the Furious 7. The game includes a script that automatically generates skyscrapers based on a data model that is editable within the Unity 3D editor, and editting the model shows the resulting 3D object instantly.",
         "technologies": ["Game", "Unity", "C#", "Blender"],
@@ -84,6 +103,7 @@
     },
     {
         "title": "Ludum Dare 34",
+        "type": "Personal",
         "date": "December 2015",
         "description": "LD34 is the third game development contest I entered. I made a top down space shooter with pixel art in Unity3D. Due to lack of time I did not submit my creation, as I could not finish the game.",
         "technologies": ["Game", "Unity", "Art"],
@@ -92,6 +112,7 @@
     },
     {
         "title": "php-school-assignments",
+        "type": "Study",
         "date": "December 2015",
         "description": "Some super simple PHP exercises I had to do for school.",
         "technologies": ["PHP"],
@@ -99,12 +120,14 @@
     },
     {
         "title": "linkline.nl",
+        "type": "Professional",
         "date": "July-November 2015",
         "description": "An administrative buisness info site. This website has a responsive design that is designed together with my client to look exactly like the client wants.",
         "technologies": ["Web", "HTML", "CSS", "SCSS", "JavaScript", "gulp", "Babel", "GitHub Pages"]
     },
     {
         "title": "One Hour Game Jam 19",
+        "type": "Personal",
         "date": "August 2015",
         "description": "My first One Hour Game Jam, which is a development competition in which you need to create an entire game in one hour. The theme was \"Rock Simulator\", so I made a 2D survival game in which you walk/jump around a tiny planet and avoid getting hit by incomming meteors.",
         "technologies": ["Game", "Unity"],
@@ -112,6 +135,7 @@
     },
     {
         "title": "Ludum Dare 33",
+        "type": "Personal",
         "date": "August 2015",
         "description": "LD33 is the secondth game development contest I entered. The objective of this contentest was to make a game in 24 hours based on the theme \"You are the Monster\". We made a top down monster game in which you need to defend buildings by eating incomming attackers. Each level is randomly generated, and gets more difficult through a few algorithms. We used a Travis CI pipeline to automatically generate game builds in order to improve development efficiency and collaboration.",
         "technologies": ["Game", "Unity", "Art", "Sound FX", "AI", "CI", "Travis CI"],
@@ -120,12 +144,14 @@
     },
     {
         "title": "corinehazeleger.com",
+        "type": "Professional",
         "date": "May-April 2015",
         "description": "This is my first professional web development project. This website has a responsive design that is designed together with my client to look exactly like the client wants. It's an art portfolio site, which includes a PhotoSwipe powered gallery.",
         "technologies": ["Web", "HTML", "CSS", "JavaScript", "PhotoSwipe", "GitHub Pages"]
     },
     {
         "title": "ThrowBot",
+        "type": "Personal",
         "date": "July 2015",
         "description": "A Unity based 3D missle launcher with AI that teaches itself to hit a target.",
         "githubPage": "cor/ThrowBot",
@@ -133,6 +159,7 @@
     },
     {
         "title": "CandyMachine",
+        "type": "Study",
         "date": "May-June 2015",
         "description": "A Java Swing candy machine UI demo made for a school project.",
         "githubPage": "cor/CandyMachine",
@@ -140,6 +167,7 @@
     },
     {
         "title": "ClockJS",
+        "type": "Study",
         "date": "May 2015",
         "description": "A JavaScript canvas based real time customizable clock drawing program I made for a school art project. (including a version based on Pink Floyd's 'Time')",
         "githubPage" : "cor/ClockJS",
@@ -147,6 +175,7 @@
     },
     {
         "title": "CannibalFish",
+        "type": "Personal",
         "date": "April 2015",
         "description": "A Unity prototype clone of the famous 'Ugh' game in which you need to eat other fishes in order to survive.",
         "githubPage": "cor/CannibalFish",
@@ -154,6 +183,7 @@
     },
     {
         "title": "Ludum Dare 32",
+        "type": "Personal",
         "date": "April 2015",
         "description": "LD32 is the first game development contest I entered. The objective of this contentest was to make a game in 24 hours based on the theme \"An Unconventional Weapon\". I made a side scrolling adventure game in which you have a mysterious pizza blasting gun named Project Pizza.",
         "githubPage": "cor/LD32",
@@ -161,6 +191,7 @@
     },
     {
         "title": "grammatical-gender-trainer",
+        "type": "Personal",
         "date": "February 2015",
         "description": "An iOS app used for studying grammatical genders (such as der, die and das in German). Uses the API of wrts, a Dutch word studying site, to import word lists.",
         "githubPage": "cor/grammatical-gender-trainer",
@@ -169,6 +200,7 @@
     },
     {
         "title": "PeasantWars",
+        "type": "Personal",
         "date": "December 2014 - January 2015",
         "description": "A top down shooter prototype written in Java",
         "githubPage": "cor/PeasantWars",
@@ -177,12 +209,14 @@
     },
     {
         "title": "BinaryConverter",
+        "type": "Personal",
         "date": "November 2014",
         "description": "An iOS app that converts numbers in binary, octal, decimal and hexadecimal numeral systems.",
         "technologies": ["iOS", "Swift"]
     },
     {
         "title": "get-out",
+        "type": "Personal",
         "date": "October-November 2014",
         "description": "A top down shooter written in Swift using SpriteKit",
         "githubPage" : "cor/get-out",
@@ -190,6 +224,7 @@
     },
     {
         "title": "swong",
+        "type": "Personal",
         "date": "July-October 2014",
         "description": "Swift + Pong = Swong, an iOS game made with Swift and Apple's SpriteKit framework. Has local multiplayer, lots of customizability options and nice animations. Also includes a promotion website that I made for a scool project. The website has a JavaScript canvas based version of the game running in the background.",
         "technologies": ["Game", "iOS", "Swift", "SpriteKit", "Art", "Web", "JavaScript", "canvas", "CSS"],
@@ -197,6 +232,7 @@
     },
     {
         "title": "supercalc",
+        "type": "Personal",
         "date": "July 2014",
         "description": "A simple iOS calculator app written in Swift as an exercise of Stanford's iTunes U course on iOS development.",
         "githubPage": "cor/supercalc",
@@ -204,6 +240,7 @@
     },
     {
         "title": "TicTacoToeJS",
+        "type": "Personal",
         "date": "April-August 2014",
         "description": "A web version of my TicTacoToe game written in JavaScript/jQuery. Includes lots of animations",
         "githubPage": "cor/TicTacoToeJS",
@@ -211,6 +248,7 @@
     },
     {
         "title": "Buttonmasher",
+        "type": "Personal",
         "date": "March-August 2014",
         "description": "A web based mastermind style code cracking game in which you need to find the SHA-512 encrypted code by bruteforce/guessing it.",
         "githubPage": "cor/Buttonmasher",
@@ -218,6 +256,7 @@
     },
     {
         "title": "TicTacoToe-swift",
+        "type": "Personal",
         "date": "July 2014",
         "description": "An iOS version of my TicTacoToe game written in Swift",
         "githubPage": "cor/TicTacoToe-swift",
@@ -225,6 +264,7 @@
     },
     {
         "title": "Ultimedia",
+        "type": "Study",
         "date": "May-June 2014",
         "description": "Ultimedia is a static news site I made for a school project",
         "githubPage": "cor/ultimedia",
@@ -232,6 +272,7 @@
     },
     {
         "title": "swift-canvas",
+        "type": "Personal",
         "date": "June 2014",
         "description": "A small drawing program written in Swift playgrounds that uses emoji to render simple geometric drawings.",
         "githubPage": "cor/swift-canvas",
@@ -239,12 +280,14 @@
     },
     {
         "title": "darrep.com",
+        "type": "Personal",
         "date": "June 2014",
         "description": "An old and outdated site displaying a few apps.",
         "technologies": ["Web", "HTML", "CSS", "JavaScript"]
     },
     {
         "title": "PirateGame",
+        "type": "Personal",
         "date": "May 2014",
         "description": "A super simple pirate styled iOS game written in Objective-C.",
         "githubPage": "cor/PirateGame",
@@ -252,6 +295,7 @@
     },
     {
         "title": "TicTacoToe",
+        "type": "Personal",
         "date": "February 2014",
         "description": "This is my oldest project on GitHub, and thus the first project I made using a source control system. It's a console based Tic Tac Toe game written in Java.",
         "githubPage": "cor/tictacotoe",
