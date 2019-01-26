@@ -1,6 +1,6 @@
 <template>
 <div class="app-header">
-  <h1>CorCoder</h1>
+  <router-link to="/"><h1>CorCoder</h1></router-link>
   <span class="subtitle">Developer</span>
   <navigation></navigation>
 </div>
@@ -23,6 +23,11 @@ export default {
 
   .subtitle {
     margin-top: -10px;
+  }
+
+  a, a:visited {
+    color: $eerie-black;
+    text-decoration: none;
   }
 }
 </style>
