@@ -38,7 +38,13 @@
         "type": "Professional",
         "date": "2017-2018",
         "description": "I worked on an unreleased project for Unboxing Solutions. In this project I fulfilled the role of designing and building an entire Vue.js SPA, which included interacting a lot with a RESTful API. I worked closely together with the lead back end developer, and had meaningful discussions on the API design and it's interaction with the client side aplication. We switched between a lot of different technologies, and I learned a lot from the process of building this application. I especially learned a lot about designing a great front-end web SPA architecture, optimizing user experiences and interacting with an API in a transparent, real time way. Working for Unboxing Solutions has by far been my most valuable programming experience.",
-        "technologies": ["Web", "Vue.js", "Vuex", "Vue Router", "vue-cli", "axios", "API", "SCSS", "CSS", "JavaScript", "WebPack", "Babel", "Design", "HTML", "HTTPS", "Affinity Designer"]
+        "technologies": ["Web", "Vue.js", "Vuex", "Vue Router", "vue-cli", "axios", "API", "SCSS", "CSS", "JavaScript", "WebPack", "Babel", "Design", "HTML", "HTTPS", "Affinity Designer"],
+        "externalLinks": [
+            {
+                "title": "Unboxing Solutions",
+                "link": "http://unboxingsolutions.nl/"
+            }
+        ]
     },
     {
         "title": "One Hour Game Jam 164",
@@ -329,13 +335,6 @@
         "description": "A small drawing program written in Swift playgrounds that uses emoji to render simple geometric drawings.",
         "githubPage": "cor/swift-canvas",
         "technologies": ["iOS", "Swift"]
-    },
-    {
-        "title": "darrep.com",
-        "type": "Personal",
-        "date": "June 2014",
-        "description": "An old and outdated site displaying a few apps.",
-        "technologies": ["Web", "HTML", "CSS", "JavaScript"]
     },
     {
         "title": "PirateGame",
