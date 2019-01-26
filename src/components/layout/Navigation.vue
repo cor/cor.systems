@@ -6,18 +6,9 @@
 </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
 <style scoped lang="scss">
-.navigation {
-  a {
-    font-family: 'Teko';
-    font-size: 20px;
-    margin: 0 8px;
-  }
+.navigation a {
+  font-size: 20px;
+  margin: 0 8px;
 }
 </style>

@@ -18,21 +18,23 @@ export default {
       return this.project.githubPage ? `https://github.com/${this.project.githubPage}` : null
     },
     contributors () {
+      // Generates a contributors mention, such as 'Made in cooperation with Nikola Tesla and Thomas Edison'
       if (this.project.contributors) {
         let contributorSentence = 'Made in cooperation with '
         const contributorCount = this.project.contributors.length
 
+        // Iterate over all contributors
         for (let i = 0; i < contributorCount; i++) {
           const contributor = this.project.contributors[i]
           contributorSentence += contributor
 
-          // there are more contributors
+          // There are more contributors, determine if this is the secondth last contributor
           if (i + 1 < contributorCount) {
             if (i + 2 === contributorCount) {
-              // This is the secondth last contributor, add the word "and",
+              // This is the secondth last contributor, add ' and ',
               contributorSentence += ' and '
             } else {
-              // this is not the secondth last contributor, add the word ", "
+              // This is not the secondth last contributor, add ", "
               contributorSentence += ', '
             }
           }
@@ -48,19 +50,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-h3 {
+h3, .project-date {
   display: inline-block;
+}
+
+.project-date {
+  margin: 0;
+  font-size: 15px;
+  font-style: italic;
 }
 
 .contributors-line {
   font-size: 16px;
-}
-
-.project-date {
-  display: inline-block;
-  margin: 0;
-  font-size: 15px;
-  font-style: italic;
 }
 
 .project-description {

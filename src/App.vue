@@ -19,14 +19,16 @@ export default {
 </script>
 
 <style lang="scss">
- @import url('https://fonts.googleapis.com/css?family=Lato:400,400i|Teko:700');
- @import "~normalize-scss/sass/normalize";
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i|Teko:700');
+@import "~normalize-scss/sass/normalize";
 
-html {
-  box-sizing: border-box;
-}
 body {
   margin: 0;
+}
+
+// 'box-sizing: border box' on every element, except when specified otherwise.
+html {
+  box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -41,6 +43,8 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
+
+// Fonts
 h1, h2, h3, h4 {
   font-family: 'Teko', sans-serif;
   margin: 8px 8px -16px 0;
@@ -61,7 +65,7 @@ h3 {
 
 p {
   font-size: 19px;
-  line-height: 1.4;
+  line-height: 1.35;
   margin: 8px 0;
 }
 
