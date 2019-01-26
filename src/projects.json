@@ -11,7 +11,7 @@
         "title": "OverTheWire Natas",
         "type": "Personal",
         "date": "January 2019",
-        "description": "The OverTheWire wargames help you learn and practice security concepts in the form of hacking games. I'm curently halfway through the Natas wargame, which teaches you serverside web-security by exploiting security holes in websites.",
+        "description": "The OverTheWire wargames help you learn and practice security concepts in the form of hacking games. I'm currently halfway through the Natas wargame, which teaches you serverside web-security by exploiting security holes in websites.",
         "technologies": ["bash", "Linux", "HTTP", "PHP", "SQL", "Encryption", "Security"],
         "externalLinks": [
             {
@@ -37,7 +37,7 @@
         "title": "Unboxing Solutions",
         "type": "Professional",
         "date": "2017-2018",
-        "description": "I worked on an unreleased project for Unboxing Solutions. In this project I fulfilled the role of designing and building an entire Vue.js SPA, which included interacting a lot with a RESTful API. I worked closely together with the lead back end developer, and had meaningful discussions on the API design and it's interaction with the client side aplication. We switched between a lot of different technologies, and I learned a lot from the process of building this application. I especially learned a lot about designing a great front-end web SPA architecture, optimizing user experiences and interacting with an API in a transparent, real time way. Working for Unboxing Solutions has by far been my most valuable programming experience.",
+        "description": "I worked on an unreleased project for Unboxing Solutions. In this project I fulfilled the role of designing and building an entire Vue.js SPA, which included interacting a lot with a RESTful API. I worked closely together with the lead back end developer, and had meaningful discussions on the API design and it's interaction with the client side application. We switched between a lot of different technologies, and I learned a lot from the process of building this application. I especially learned a lot about designing a great front-end web SPA architecture, optimizing user experiences and interacting with an API in a transparent, real time way. Working for Unboxing Solutions has by far been my most valuable programming experience.",
         "technologies": ["Web", "Vue.js", "Vuex", "Vue Router", "vue-cli", "axios", "API", "SCSS", "CSS", "JavaScript", "WebPack", "Babel", "Design", "HTML", "HTTPS", "Affinity Designer"],
         "externalLinks": [
             {
@@ -58,7 +58,7 @@
         "title": "One Hour Game Jam 163",
         "type": "Personal",
         "date": "June 2018",
-        "description": "My secondth One Hour Game Jam, which is a development competition in which you need to create an entire game in one hour. The theme was \"Unexpected\", so I made a 2D game in which you need to click as many randomly falling objects as possiblie within one minute, with an unexpected surprise ending.",
+        "description": "My second One Hour Game Jam, which is a development competition in which you need to create an entire game in one hour. The theme was \"Unexpected\", so I made a 2D game in which you need to click as many randomly falling objects as possible within one minute, with an unexpected surprise ending.",
         "technologies": ["Game", "Unity", "C#"],
         "githubPage": "cor/1hgj-163"
     },
@@ -141,7 +141,7 @@
         "title": "altitrial",
         "type": "Study",
         "date": "April 2016",
-        "description": "A game prototype in which you drive in a car, and fly from building to building like the scene in Fast and the Furious 7. The game includes a script that automatically generates skyscrapers based on a data model that is editable within the Unity 3D editor, and editting the model shows the resulting 3D object instantly.",
+        "description": "A game prototype in which you drive in a car, and fly from building to building like the scene in Fast and the Furious 7. The game includes a script that automatically generates skyscrapers based on a data model that is editable within the Unity 3D editor, and editing the model shows the resulting 3D object instantly.",
         "technologies": ["Game", "Unity", "C#", "Blender"],
         "githubPage": "cor/altitrial",
         "contributors": ["Niels van Harten", "Leon Grasmeijer"]
@@ -167,7 +167,7 @@
         "title": "linkline.nl",
         "type": "Professional",
         "date": "July-November 2015",
-        "description": "An administrative buisness info site. This website has a responsive design that is designed together with my client to look exactly like the client wants.",
+        "description": "An administrative business info site. This website has a responsive design that is designed together with my client to look exactly like the client wants.",
         "technologies": ["Web", "HTML", "CSS", "SCSS", "JavaScript", "gulp", "Babel", "GitHub Pages"],
         "externalLinks": [
             {
@@ -180,7 +180,7 @@
         "title": "One Hour Game Jam 19",
         "type": "Personal",
         "date": "August 2015",
-        "description": "My first One Hour Game Jam, which is a development competition in which you need to create an entire game in one hour. The theme was \"Rock Simulator\", so I made a 2D survival game in which you walk/jump around a tiny planet and avoid getting hit by incomming meteors.",
+        "description": "My first One Hour Game Jam, which is a development competition in which you need to create an entire game in one hour. The theme was \"Rock Simulator\", so I made a 2D survival game in which you walk/jump around a tiny planet and avoid getting hit by incoming meteors.",
         "technologies": ["Game", "Unity"],
         "githubPage": "cor/RockSimulator"
     },
@@ -188,7 +188,7 @@
         "title": "Ludum Dare 33",
         "type": "Personal",
         "date": "August 2015",
-        "description": "LD33 is the secondth game development contest I entered. The objective of this contentest was to make a game in 24 hours based on the theme \"You are the Monster\". We made a top down monster game in which you need to defend buildings by eating incomming attackers. Each level is randomly generated, and gets more difficult through a few algorithms. We used a Travis CI pipeline to automatically generate game builds in order to improve development efficiency and collaboration.",
+        "description": "LD33 is the second game development contest I entered. The objective of this contest was to make a game in 24 hours based on the theme \"You are the Monster\". We made a top down monster game in which you need to defend buildings by eating incoming attackers. Each level is randomly generated, and gets more difficult through a few algorithms. We used a Travis CI pipeline to automatically generate game builds in order to improve development efficiency and collaboration.",
         "technologies": ["Game", "Unity", "Art", "Sound FX", "AI", "CI", "Travis CI"],
         "githubPage": "cor/LD33",
         "contributors": ["Jurriaan Pruijs"]
@@ -211,7 +211,7 @@
         "title": "ThrowBot",
         "type": "Personal",
         "date": "July 2015",
-        "description": "A Unity based 3D missle launcher with AI that teaches itself to hit a target.",
+        "description": "A Unity based 3D missile launcher with AI that teaches itself to hit a target.",
         "githubPage": "cor/ThrowBot",
         "technologies": ["Game", "Unity", "AI"]
     },
@@ -243,7 +243,7 @@
         "title": "Ludum Dare 32",
         "type": "Personal",
         "date": "April 2015",
-        "description": "LD32 is the first game development contest I entered. The objective of this contentest was to make a game in 24 hours based on the theme \"An Unconventional Weapon\". I made a side scrolling adventure game in which you have a mysterious pizza blasting gun named Project Pizza.",
+        "description": "LD32 is the first game development contest I entered. The objective of this contest was to make a game in 24 hours based on the theme \"An Unconventional Weapon\". I made a side scrolling adventure game in which you have a mysterious pizza blasting gun named Project Pizza.",
         "githubPage": "cor/LD32",
         "technologies": ["Game", "Unity", "C#", "Pixelart"]
     },
@@ -284,7 +284,7 @@
         "title": "swong",
         "type": "Personal",
         "date": "July-October 2014",
-        "description": "Swift + Pong = Swong, an iOS game made with Swift and Apple's SpriteKit framework. Has local multiplayer, lots of customizability options and nice animations. Also includes a promotion website that I made for a scool project. The website has a JavaScript canvas based version of the game running in the background.",
+        "description": "Swift + Pong = Swong, an iOS game made with Swift and Apple's SpriteKit framework. Has local multiplayer, lots of customizability options and nice animations. Also includes a promotion website that I made for a school project. The website has a JavaScript canvas based version of the game running in the background.",
         "technologies": ["Game", "iOS", "Swift", "SpriteKit", "Art", "Web", "JavaScript", "canvas", "CSS"],
         "githubPage": "cor/swong"
     },
@@ -308,7 +308,7 @@
         "title": "Buttonmasher",
         "type": "Personal",
         "date": "March-August 2014",
-        "description": "A web based mastermind style code cracking game in which you need to find the SHA-512 encrypted code by bruteforce/guessing it.",
+        "description": "A web based mastermind style code cracking game in which you need to find the SHA-512 encrypted code by brute-force/guessing it.",
         "githubPage": "cor/Buttonmasher",
         "technologies": [ "JavaScript", "jQuery", "CSS", "HTML", "Encryption" ]
     },
