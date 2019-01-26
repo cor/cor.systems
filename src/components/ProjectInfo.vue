@@ -5,7 +5,8 @@
   <p class="project-description">{{ project.description }} </p>
   <div class="technology-badge" v-for="technology in project.technologies" :key="technology">{{technology}}</div>
   <p class="contributors-line"><i>{{ contributors }}</i></p>
-  <p class="project-link" v-if="projectLink"><a :href="projectLink">View on GitHub</a></p>
+  <p class="project-link" v-if="projectLink"><a :href="projectLink">View {{ project.githubPage }} on GitHub</a></p>
+  <p class="external-link" v-for="externalLink in project.externalLinks" :key="externalLink.title"><a :href="externalLink.link">{{externalLink.title}}</a></p>
 </div>
 </template>
 
@@ -79,8 +80,9 @@ h3 {
   }
 }
 
-.project-link {
+.project-link, .external-link{
   margin-top: 0;
   font-size: 18px;
+  margin-bottom: 4px;
 }
 </style>
