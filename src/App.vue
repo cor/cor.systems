@@ -59,12 +59,16 @@ h2 {
 }
 
 h3 {
-  margin-top: 40px;
   font-size: 30px;
 }
 
+h4 {
+  font-size: 22px;
+  margin-bottom: -8px;
+}
+
 p {
-  font-size: 19px;
+  font-size: $main-font-size;
   line-height: 1.35;
   margin: 8px 0;
 }
@@ -73,5 +77,11 @@ a {
   font-family: 'Teko', sans-serif;
   font-weight: bold;
   color: $raspberry-pink;
+}
+
+// UX
+label, input {
+  user-select: none;
+  font-size: $main-font-size - 2px;
 }
 </style>
