@@ -107,6 +107,7 @@ export default {
     cursor: pointer;
     outline: inherit;
     display: inline-block;
+    margin: 0;
 
     &.filters-are-shown {
       border-radius: $filters-border-radius $filters-border-radius 0 0;
@@ -134,6 +135,7 @@ export default {
       font-size: 14px;
       cursor: pointer;
       letter-spacing: normal;
+      margin-left: 2px;
     }
   }
 }

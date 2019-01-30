@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i|Teko:700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,900|Teko:700');
 @import "~normalize-scss/sass/normalize";
 
 body {
