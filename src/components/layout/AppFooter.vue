@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <div class="app-footer">
-      <p><i></i>&copy; {{year}} Cor Pruijs</p>
-    </div>
-  </div>
+  <div class="app-footer">&copy; {{year}} Cor Pruijs</div>
 </template>
 
 <script>
@@ -18,9 +14,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
-p {
-  margin: 8px;
+.app-footer {
+  padding: 16px;
   text-align: center;
-  font-size: 15px
+  font-size: 15px;
+
+  color: $gray;
+  font-weight: bold;
 }
 </style>
