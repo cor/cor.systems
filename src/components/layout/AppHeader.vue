@@ -21,6 +21,8 @@ export default {
   flex-direction: column;
   align-items: center;
 
+  border-top: 4px solid $raspberry-pink;
+  border-radius: 0;
   .subtitle {
     margin-top: -10px;
   }
@@ -29,5 +31,6 @@ export default {
     color: $eerie-black;
     text-decoration: none;
   }
+
 }
 </style>

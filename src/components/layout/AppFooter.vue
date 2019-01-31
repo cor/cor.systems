@@ -21,5 +21,7 @@ export default {
 
   color: $gray;
   font-weight: bold;
+
+  border-bottom: 4px solid $gray;
 }
 </style>
