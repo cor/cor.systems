@@ -1,7 +1,7 @@
 <template>
 <div class="project-info">
   <h3>{{ project.title }}</h3>
-  <p class="project-date">{{ project.type + ', ' + project.date }}</p>
+  <p class="project-date">{{project.type}}, {{project.date}}</p>
   <p class="project-description">{{ project.description }} </p>
   <div class="technology-badge" v-for="technology in project.technologies" :key="technology">{{technology}}</div>
   <p class="contributors-line"><i>{{ contributors }}</i></p>

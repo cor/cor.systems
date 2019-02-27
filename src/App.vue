@@ -12,6 +12,7 @@
 import AppHeader from '@/components/layout/AppHeader'
 import AppContent from '@/components/layout/AppContent'
 import AppFooter from '@/components/layout/AppFooter'
+
 export default {
   name: 'App',
   components: { AppHeader, AppContent, AppFooter }
