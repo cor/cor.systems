@@ -1,5 +1,18 @@
 [
     {
+        "title": "SciSports",
+        "type": "Professional",
+        "date": "March 2019 - Now",
+        "description": "I'm currently working at SciSports as a software engineer.",
+        "technologies": ["Web", "Vue.js", "Vue Router", "vue-cli", "SCSS", "CSS", "JavaScript", "WebPack", "Babel", "Design", "HTML", "Affinity Designer", "JIRA"],
+        "externalLinks": [
+            {
+                "title": "SciSports about page",
+                "link": "https://www.scisports.com/about-us/"
+            }
+        ]
+    },
+    {
         "title": "This website",
         "type": "Professional",
         "date": "January 2019",
