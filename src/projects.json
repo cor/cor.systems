@@ -1,14 +1,41 @@
 [
     {
-        "title": "SciSports",
-        "type": "Professional",
-        "date": "March 2019 - Now",
-        "description": "I'm currently working at SciSports as a software engineer.",
-        "technologies": ["Web", "Vue.js", "Vue Router", "vue-cli", "SCSS", "CSS", "JavaScript", "WebPack", "Babel", "Design", "HTML", "Affinity Designer", "JIRA"],
+        "title": "V*bert",
+        "type": "Study",
+        "date": "November 2019 - Now",
+        "description": "V*bert is a work in progress VR version of the retro game Q*bert. I'm creating this with a small team as a university project.",
+        "technologies": ["Game", "VR", "Unity", "C#", "Art"],
         "externalLinks": [
             {
-                "title": "SciSports about page",
-                "link": "https://www.scisports.com/about-us/"
+                "title": "Q*bert on Wikipedia",
+                "link": "https://en.wikipedia.org/wiki/Q*bert"
+            }
+        ]
+    },
+    {
+        "title": "Advent of Code",
+        "type": "Personal",
+        "date": "December 2019 - Now",
+        "description": "I've done 2019's Advent of Code challenges and they were a lot of fun! Unfortunately I only found out about them on the second last day, so I'm doing them now after the fact.",
+        "technologies": ["Swift"],
+        "externalLinks": [
+            {
+                "title": "Advent of Code",
+                "link": "https://adventofcode.com/"
+            }
+        ],
+        "githubPage": "cor/advent-of-code"
+    },
+    {
+        "title": "SciSports Insight",
+        "type": "Professional",
+        "date": "March 2019 - September 2019",
+        "description": "I've worked at SciSports as a software engineer and designer. My primary contributions were developing software and UI/UX design for the SPA of the Insight data analytics platform.",
+        "technologies": ["Web", "Design", "Vue.js", "Vue Router", "vue-cli", "SCSS", "CSS", "JavaScript", "WebPack", "Babel", "Design", "HTML", "Affinity Designer", "JIRA", "Bohemian Sketch", "Scrum"],
+        "externalLinks": [
+            {
+                "title": "SciSports",
+                "link": "https://www.scisports.com/"
             }
         ]
     },
