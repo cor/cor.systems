@@ -23,5 +23,10 @@ export default {
   font-weight: bold;
 
   border-bottom: 4px solid $gray;
+
+  @media (prefers-color-scheme: dark) {
+    color: $light-gray;
+    border-color: $light-gray;
+  }
 }
 </style>

@@ -23,12 +23,13 @@ export default {
 
   border-top: 4px solid $raspberry-pink;
   border-radius: 0;
+
   .subtitle {
     margin-top: -10px;
   }
 
   a, a:visited {
-    color: $eerie-black;
+    color: inherit;
     text-decoration: none;
   }
 

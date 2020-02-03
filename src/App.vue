@@ -25,6 +25,12 @@ export default {
 
 body {
   margin: 0;
+
+  color: $eerie-black;
+  @media (prefers-color-scheme: dark) {
+    background-color: $eerie-black;
+    color: $white;
+  }
 }
 
 // 'box-sizing: border box' on every element, except when specified otherwise.
@@ -39,7 +45,6 @@ html {
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $eerie-black;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
