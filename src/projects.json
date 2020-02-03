@@ -207,14 +207,8 @@
         "title": "linkline.nl",
         "type": "Professional",
         "date": "July-November 2015",
-        "description": "An administrative business info site. This website has a responsive design that is designed together with my client to look exactly like the client wants.",
-        "technologies": ["Web", "HTML", "CSS", "SCSS", "JavaScript", "gulp", "Babel", "GitHub Pages"],
-        "externalLinks": [
-            {
-                "title": "Visit linkline.nl",
-                "link": "http://linkline.nl"
-            }
-        ]
+        "description": "An administrative business info site. This website has a responsive design that is designed together with my client to look exactly like the client wants. NOTE: THIS WEBSITE HAS BEEN REPLACED BY ANOTHER WEBSITE AS OF 2020. I DID NEITHER DEVELOP NOR DESIGN THIS NEW WEBSITE.",
+        "technologies": ["Web", "HTML", "CSS", "SCSS", "JavaScript", "gulp", "Babel", "GitHub Pages"]
     },
     {
         "title": "One Hour Game Jam 19",
