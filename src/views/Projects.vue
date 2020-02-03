@@ -109,6 +109,10 @@ export default {
     display: inline-block;
     margin: 0;
 
+    @media (prefers-color-scheme: dark) {
+      background-color: $gray;
+    }
+
     &.filters-are-shown {
       border-radius: $filters-border-radius $filters-border-radius 0 0;
     }
@@ -120,6 +124,10 @@ export default {
     font-weight: bold;
     font-size: 14px;
     margin-left: 8px;
+
+    @media (prefers-color-scheme: dark) {
+      color: $light-gray;
+    }
   }
 
   .filter-container {
@@ -129,6 +137,10 @@ export default {
     border-radius: 0 $filters-border-radius $filters-border-radius $filters-border-radius;
     padding: 12px 16px 14px 10px;
 
+    @media (prefers-color-scheme: dark) {
+      border-color: $gray;
+    }
+
     label {
       color: $gray;
       font-weight: bold;
@@ -136,6 +148,10 @@ export default {
       cursor: pointer;
       letter-spacing: normal;
       margin-left: 2px;
+
+      @media (prefers-color-scheme: dark) {
+        color: $light-gray;
+      }
     }
   }
 }
