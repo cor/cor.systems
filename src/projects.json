@@ -25,7 +25,8 @@
                 "title": "INFOGR Raytracer WebGL",
                 "link": "https://cor.github.io/infogr-raytracer-webgl/"
             }
-        ]
+        ],
+        "githubPage": "cor/infogr-raytracer-webgl"
     },
     {
         "title": "V*bert",
