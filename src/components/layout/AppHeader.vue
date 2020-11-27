@@ -1,7 +1,7 @@
 <template>
 <div class="app-header">
   <router-link to="/"><h1>CorCoder</h1></router-link>
-  <span class="subtitle">Developer</span>
+  <span class="subtitle">Software Engineer</span>
   <navigation></navigation>
 </div>
 </template>

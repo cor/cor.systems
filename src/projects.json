@@ -1,23 +1,10 @@
 [
     {
-        "title": "V*bert",
-        "type": "Study",
-        "date": "November 2019 - Now",
-        "description": "V*bert is a work in progress VR version of the retro game Q*bert. I'm creating this with a small team as a university project.",
-        "technologies": ["Game", "VR", "Unity", "C#", "Art"],
-        "externalLinks": [
-            {
-                "title": "Q*bert on Wikipedia",
-                "link": "https://en.wikipedia.org/wiki/Q*bert"
-            }
-        ]
-    },
-    {
         "title": "Advent of Code",
         "type": "Personal",
-        "date": "December 2019 - Now",
-        "description": "I've done 2019's Advent of Code challenges and they were a lot of fun! Unfortunately I only found out about them on the second last day, so I'm doing them now after the fact.",
-        "technologies": ["Swift"],
+        "date": "December 2019, December 2020",
+        "description": "I've done 2019's Advent of Code challenges and they were a lot of fun! Unfortunately I only found out about them on the second last day, so I did them after the fact. For 2020 I am planning on participating from the start. We'll see how it goes :-)",
+        "technologies": ["Swift", "Challenge"],
         "externalLinks": [
             {
                 "title": "Advent of Code",
@@ -27,10 +14,37 @@
         "githubPage": "cor/advent-of-code"
     },
     {
-        "title": "SciSports Insight",
+        "title": "WebGL Raytracer",
+        "type": "Study",
+        "date": "May 2020",
+        "description": "For our graphics course we were challenged to create a 2D raytracer in C#. This was a fun challenge, but we did not like that it wasn't multiplatform and that it only achieved 5 FPS (even after multithreading our CPU renderer and running on an 8-core machine). Therefore we decided to port our raytracer into a WebGL shader and we wrote a shader precompiler so that we could dynamically insert our CPU determined scenes into our shader-based raytracer. We also added an animation library that interpolates between scenes in order to show fancy animations. We got a grade of 9.5 for this project.",
+        "technologies": ["Raytracing", "OpenGL", "WebGL", "Art", "Web", "Vue.js", "JavaScript"],
+        "contributors": ["Karel Kubat"],
+        "externalLinks": [
+            {
+                "title": "INFOGR Raytracer WebGL",
+                "link": "https://cor.github.io/infogr-raytracer-webgl/"
+            }
+        ]
+    },
+    {
+        "title": "V*bert",
+        "type": "Study",
+        "date": "November 2019 - January 2020",
+        "description": "V*bert is a virtual reality version of the retro game Q*bert. I've created this with a small team as an university introduction project. It was very well received, people loved playing it. We got a grade of 9 for this project.",
+        "technologies": ["Game", "VR", "Unity", "C#", "Art", "Scrum", "JIRA"],
+        "externalLinks": [
+            {
+                "title": "Q*bert on Wikipedia",
+                "link": "https://en.wikipedia.org/wiki/Q*bert"
+            }
+        ]
+    },
+    {
+        "title": "SciSports",
         "type": "Professional",
         "date": "March 2019 - September 2019",
-        "description": "I've worked at SciSports as a software engineer and designer. My primary contributions were developing software and UI/UX design for the SPA of the Insight data analytics platform.",
+        "description": "I've worked at SciSports as a software engineer and designer. My primary contributions were developing software and UI/UX design for the SPA of the Insight data analytics platform. This platform gives football scouts insight in their recruitment and performance analysis processes.",
         "technologies": ["Web", "Design", "Vue.js", "Vue Router", "vue-cli", "SCSS", "CSS", "JavaScript", "WebPack", "Babel", "Design", "HTML", "Affinity Designer", "JIRA", "Bohemian Sketch", "Scrum"],
         "externalLinks": [
             {
