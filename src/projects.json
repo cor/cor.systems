@@ -29,6 +29,21 @@
         "githubPage": "cor/infogr-raytracer-webgl"
     },
     {
+        "title": "WebGL Pong",
+        "type": "Study",
+        "date": "June 2020",
+        "description": "For another graphics assignment, Karel and I decided to leverage our dynamic shader recompilation system (which we developed for our WebGL Raytracer) in order to implement an entire Pong renderer within a single WebGL fragment shader. The renderer supports scan lines, a curvature effect, ball trails, and UI (character) rendering. We got a grade of 10 for this project.",
+        "technologies": ["Game", "WebGL", "Art", "Web", "JavaScript", "Bfxr"],
+        "contributors": ["Karel Kubat"],
+        "externalLinks": [
+            {
+                "title": "INFOGR Pong",
+                "link": "https://cor.github.io/infogr-pong/"
+            }
+        ],
+        "githubPage": "cor/infogr-pong"
+    },
+    {
         "title": "V*bert",
         "type": "Study",
         "date": "November 2019 - January 2020",
