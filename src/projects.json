@@ -3,8 +3,8 @@
         "title": "Advent of Code",
         "type": "Personal",
         "date": "December 2019, December 2020",
-        "description": "I've done 2019's Advent of Code challenges and they were a lot of fun! Unfortunately I only found out about them on the second last day, so I did them after the fact. For 2020 I am planning on participating from the start. We'll see how it goes :-)",
-        "technologies": ["Swift", "Challenge"],
+        "description": "I've done 2019's Advent of Code challenges in Swift and they were a lot of fun! Unfortunately I only found out about them on the second last day, so I did them after the fact. For 2020 I decided to learn Rust by participating, and it was very effective. I implemented solutions for half of the challenges in Rust and I found that I really enjoy working with this language. I'm now using it for my other projects.",
+        "technologies": ["Rust" ,"Swift", "Challenge"],
         "externalLinks": [
             {
                 "title": "Advent of Code",

@@ -25,6 +25,10 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: Contact
+    },
+    {
+      path: '*',
+      redirect: '/'
     }
   ]
 })
