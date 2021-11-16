@@ -14,7 +14,7 @@
 
 <section class="my-8">
   <h2 class="text-3xl font-bold">About</h2>
-  <p class="mb-8">I'm a full-stack software engineer who loves writing in Rust and working on cloud infrastructure, but likes doing (almost) every kind of programming. I enjoy working on creative solutions to complex problems, learning about new technologies and working together with a great team.</p>
+  <p class="mb-8">I'm a full-stack software engineer who loves writing in Rust and working on cloud infrastructure, but likes doing (almost) every kind of programming. I enjoy working on creative solutions to complex problems, learning about new technologies and working together with a great team. One of my personal interests is applications of blockchain technology.</p>
 
   <h2 class="text-2xl font-bold mb-8">Recent Professional Work</h2>
   <div class="ml-4">
