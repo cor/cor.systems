@@ -3,7 +3,7 @@
         "title": "Rentiv",
         "type": "Professional",
         "role": "Co-founder & CTO",
-        "date": "January 2021, present",
+        "date": "January 2021 - present",
         "description": "Rentiv is a startup which brings a digital butler for the management of energy and communication contracts to regular consumers. Starting with removing the pains of needing to renew a yearly energy and telecom contract.",
         "technologies": ["Rust" , "Go", "TypeScript", "Google Cloud Platform", "Cloud Functions", "Hasura", "PostgreSQL", "Dev-Ops", "Design", "UI/UX", "GitHub Actions", "Firabase", "Tailwind"]
     },
