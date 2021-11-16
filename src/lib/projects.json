@@ -1,5 +1,21 @@
 [
     {
+        "title": "Rentiv",
+        "type": "Professional",
+        "role": "Co-founder & CTO",
+        "date": "January 2021, present",
+        "description": "Rentiv is a startup which brings a digital butler for the management of energy and communication contracts to regular consumers. Starting with removing the pains of needing to renew a yearly energy and telecom contract.",
+        "technologies": ["Rust" , "Go", "TypeScript", "Google Cloud Platform", "Hasura", "PostgreSQL", "Dev-Ops", "GitHub Actions"]
+    },
+    {
+        "title": "RVID-chat",
+        "type": "Professional",
+        "role": "Software Engineer",
+        "date": "2020",
+        "description": "RVID-chat is a pilot for restricted and monitored video calling app developed during the start of Corona pandemic for Swiss penitentiaries to permit communication between inmates and social workers.",
+        "technologies": ["Rust"]
+    },
+    {
         "title": "Advent of Code",
         "type": "Personal",
         "date": "December 2019, December 2020",

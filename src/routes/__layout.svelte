@@ -134,7 +134,7 @@
 
 <div class="text-gray-900">
 	<Header />
-	<main class="max-w-2xl mx-auto px-8">
+	<main class="max-w-2xl mx-auto px-4">
 		<slot />
 	</main>
 </div>
