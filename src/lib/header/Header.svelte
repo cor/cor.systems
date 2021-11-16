@@ -7,7 +7,7 @@
 	<h1 class="text-6xl font-bold mt-8">CorCoder</h1>
 	<h2 class="font-bold">Software Engineer</h2>
 	<nav>
-		<ul>
+		<ul class="flex justify-center gap-4">
 			<li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
 <!--			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>-->
 			<li class:active={$page.path === '/projects'}><a sveltekit:prefetch href="/projects">Projects</a></li>

@@ -1,5 +1,6 @@
 import preprocess from 'svelte-preprocess';
-import { windi } from "svelte-windicss-preprocess";
+import { windi } from 'svelte-windicss-preprocess';
+
 import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -8,7 +9,9 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [
 		preprocess(),
-		windi({})
+		windi({
+			configPath: './windi.config.js'
+		})
 	],
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
@@ -17,7 +20,7 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: null
-		})
+		}),
 	}
 };
 
