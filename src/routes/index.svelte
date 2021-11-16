@@ -20,6 +20,7 @@
   <div class="ml-4">
     <Project project={projects[0]}/>
     <Project project={projects[1]}/>
+    <Project project={projects[6]}/>
   </div>
 
 
