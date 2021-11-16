@@ -3,18 +3,14 @@
 	import logo from './svelte-logo.svg';
 </script>
 
-<header>
-<!--	<div class="corner">-->
-<!--		<a href="https://kit.svelte.dev">-->
-<!--			<img src={logo} alt="SvelteKit" />-->
-<!--		</a>-->
-<!--	</div>-->
-
+<header class="text-center">
+	<h1 class="text-6xl font-bold mt-8">CorCoder</h1>
+	<h2 class="font-bold">Software Engineer</h2>
 	<nav>
 		<ul>
 			<li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>
-			<li class:active={$page.path === '/todos'}><a sveltekit:prefetch href="/todos">Todos</a></li>
+<!--			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>-->
+			<li class:active={$page.path === '/projects'}><a sveltekit:prefetch href="/projects">Projects</a></li>
 		</ul>
 	</nav>
 </header>
