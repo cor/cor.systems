@@ -1,5 +1,7 @@
 <script context="module" lang="ts">
 	export const prerender = true;
+  import Project from "$lib/Project.svelte";
+  import projects from '$lib/projects.json';
 </script>
 
 <script lang="ts">
@@ -15,7 +17,10 @@
   <p class="mb-8">I'm a full-stack software engineer who loves writing in Rust and working on cloud infrastructure, but likes doing (almost) every kind of programming. I enjoy working on creative solutions to complex problems, learning about new technologies and working together with a great team.</p>
 
   <h2 class="text-2xl font-bold mb-8">Recent Professional Work</h2>
-
+  <div class="ml-4">
+    <Project project={projects[0]}/>
+    <Project project={projects[1]}/>
+  </div>
 
 
 

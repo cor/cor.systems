@@ -27,7 +27,7 @@
   })()
 </script>
 
-<div class="my-16">
+<div class="mb-16">
   <h3 class="text-2xl font-bold">{project.title}{#if project.role}, <span class="italic">{project.role}</span> {/if}</h3>
   <span class="italic">{project.type}, {project.date}</span>
   <p>{project.description}</p>

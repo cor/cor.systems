@@ -1,11 +1,11 @@
 <script context="module" lang="ts">
     import Project from "$lib/Project.svelte";
     export const prerender = true;
-</script>
-
-<script lang="ts">
     import projects from '$lib/projects.json';
 </script>
+
+<!--<script lang="ts">-->
+<!--</script>-->
 
 <svelte:head>
   <title>Cor | Projects</title>
