@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Cor</title>
 </svelte:head>
 
 <section>

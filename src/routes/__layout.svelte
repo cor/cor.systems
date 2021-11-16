@@ -117,11 +117,11 @@
 			font-style: italic;
 		}
 
-		/*body {*/
-		/*	!*font-family: "AvertaPE-Regular", Helvetica, Arial, sans-serif;*!*/
-		/*	-webkit-font-smoothing: antialiased;*/
-		/*	-moz-osx-font-smoothing: grayscale;*/
-		/*}*/
+		body {
+			/*font-family: "AvertaPE-Regular", Helvetica, Arial, sans-serif;*/
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
 
 		*,
 		*:before,
@@ -131,11 +131,13 @@
 	</style>
 </svelte:head>
 
-<Header />
 
-<main class="max-w-4xl mx-auto font-sans">
-	<slot />
-</main>
+<div class="text-gray-900">
+	<Header />
+	<main class="max-w-2xl mx-auto px-8">
+		<slot />
+	</main>
+</div>
 
 <style windi:preflights:global windi:safelist:global>
 </style>
