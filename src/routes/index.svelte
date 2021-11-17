@@ -26,6 +26,6 @@
 
 
   <h2 class="font-bold text-2xl mt-16">History</h2>
-  <p class="mb-8">My interest in programming started when I was 11 years old. My dad taught me how to write basic command line programs in C, and since then I've worked on a lot of different programming projects, using numerous languages, frameworks and technologies. I have worked professionally as a freelance front end web developer and designer for multiple clients, and after that I moved on to doing full-stack development. I also occasionally deliver tech support to one person businesses, friends, and my family.</p>
-  <p class="mb-16">As a hobby, I'm also studying <i>Computer Science and Game Development</i> at the Utrecht University. I'm doing this while continuing my professional ventures. While working on a lot of programming projects, I also managed to get my high school degree. I did VWO NT with extra <i>Mathematics, Computer Science</i> and <i>Art</i> as my chosen subjects. I graduated with a 9 for <i>Mathematics B, Mathematics D</i> and <i>Computer Science</i>, and an 8 for <i>Physics</i> and <i>English.</i></p>
+  <p class="mb-8">My interest in programming started when I was 11 years old. My dad taught me how to write basic command line programs in C, and since then I've worked on a lot of different programming projects, using numerous languages, frameworks and technologies. I have worked professionally as a freelance front-end web developer and designer for multiple clients, and after that I moved on to doing full-stack development.</p>
+  <p class="mb-16">I'm also studying <i>Computer Science and Game Development</i> at the Utrecht University. I'm doing this while continuing my professional ventures. I also got my VWO (NT) high school degree at Guido.</p>
 </section>
