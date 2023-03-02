@@ -7,18 +7,18 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
   };
   outputs = inputs@{ self, nixpkgs, gitignore, flake-parts, ... }:
-    flake-parts.lib.mkFlake { inherit inputs; }
-     {
-      systems = [ "x86_64-linux" "aarch64-linux" "aarch64-darwin" "x86_64-darwin" ];
-      perSystem = { config, self', inputs', pkgs, system, ... }:
-      let
-        inherit (gitignore.lib) gitignoreSource;
-      in 
-      {
+    flake-parts.lib.mkFlake { inherit inputs; } {
+      systems =
+        [ "x86_64-linux" "aarch64-linux" "aarch64-darwin" "x86_64-darwin" ];
+      perSystem = { config, self', inputs', pkgs, system, lib, ... }:
+        let
+          inherit (gitignore.lib) gitignoreSource;
+          packageJSON = lib.importJSON ./package.json;
+        in {
           packages = rec {
             site-src = pkgs.mkYarnPackage rec {
-              name = "cor.systems-site-${version}";
-              version = "0.0.1";
+              name = "${packageJSON.name}-site-${version}";
+              version = packageJSON.version;
               src = gitignoreSource ./.;
               packageJson = "${src}/package.json";
               yarnLock = "${src}/yarn.lock";
@@ -26,22 +26,28 @@
                 yarn --offline build 
               '';
               distPhase = "true";
-            };            
+            };
 
             site = pkgs.writeShellApplication {
-              name = "cor.systems-server";
+              name = packageJSON.name;
 
               runtimeInputs = [ site-src pkgs.nodejs ];
 
               text = ''
-                node ${site-src}/libexec/cor.systems/deps/cor.systems/build
+                node ${site-src}/libexec/${packageJSON.name}/deps/${packageJSON.name}/build
               '';
-            };          
+            };
           };
-          
+
           devShells = {
             default = pkgs.mkShell {
-              buildInputs = (with pkgs; [ nodejs nil nodePackages.svelte-language-server nodePackages.typescript-language-server ]);
+              buildInputs = (with pkgs; [
+                nixfmt
+                nodejs
+                nil
+                nodePackages.svelte-language-server
+                nodePackages.typescript-language-server
+              ]);
             };
           };
         };
