@@ -1,9 +1,7 @@
 name: Deploy to GitHub Pages
 on:
   push:
-    branches: 
-      - "master"
-      - "nix-rewrite"
+    branches: "master"
     
 jobs:
   build-website:
