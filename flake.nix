@@ -31,10 +31,10 @@
             site = pkgs.writeShellApplication {
               name = packageJSON.name;
 
-              runtimeInputs = [ site-src pkgs.nodejs ];
+              runtimeInputs = [ site-src pkgs.miniserve ];
 
               text = ''
-                node ${site-src}/libexec/${packageJSON.name}/deps/${packageJSON.name}/build
+                miniserve --index index.html --spa ${site-src}/libexec/${packageJSON.name}/deps/${packageJSON.name}/build
               '';
             };
 
