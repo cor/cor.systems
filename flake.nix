@@ -16,29 +16,38 @@
           packageJSON = lib.importJSON ./package.json;
         in {
           packages = rec {
-            site-src = pkgs.mkYarnPackage rec {
-              name = "${packageJSON.name}-site-${version}";
-              version = packageJSON.version;
-              src = gitignoreSource ./.;
-              packageJson = "${src}/package.json";
-              yarnLock = "${src}/yarn.lock";
-              buildPhase = ''
-                yarn --offline build 
+            site-static = let 
+              yarnPackage = pkgs.mkYarnPackage rec {
+                name = "${packageJSON.name}-site-${version}";
+                version = packageJSON.version;
+                src = gitignoreSource ./.;
+                packageJson = "${src}/package.json";
+                yarnLock = "${src}/yarn.lock";
+                buildPhase = ''
+                  yarn --offline build 
+                '';
+                distPhase = "true";
+              };
+            in pkgs.stdenv.mkDerivation {
+              name = "cor.systems-src";
+              phases = [ "installPhase" ];
+              installPhase = ''
+                mkdir -p $out
+                cp -R ${yarnPackage}/libexec/${packageJSON.name}/deps/${packageJSON.name}/build/* $out
               '';
-              distPhase = "true";
             };
-
-            site = pkgs.writeShellApplication {
+            
+            site-server = pkgs.writeShellApplication {
               name = packageJSON.name;
 
-              runtimeInputs = [ site-src pkgs.miniserve ];
+              runtimeInputs = [ site-static pkgs.miniserve ];
 
               text = ''
-                miniserve --index index.html --spa ${site-src}/libexec/${packageJSON.name}/deps/${packageJSON.name}/build
+                miniserve --index index.html --spa ${site-static}
               '';
             };
 
-            default = site;
+            default = site-static;
           };
 
           devShells = {
