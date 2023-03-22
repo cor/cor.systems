@@ -4,7 +4,8 @@
 </svelte:head>
 
 <section>
-	<h1>Cor Pruijs</h1>
+	<h1>Cor</h1>
+	Software Engineer
 </section>
 
 <style>
