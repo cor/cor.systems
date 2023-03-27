@@ -1,5 +1,4 @@
 <svelte:head>
-	<title>Cor Pruijs</title>
 	<meta name="description" content="cor.systems" />
 </svelte:head>
 

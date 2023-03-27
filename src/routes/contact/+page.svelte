@@ -1,11 +1,10 @@
 <svelte:head>
-	<title>Cor | Contact</title>
+	<title>Cor</title>
 	<meta name="description" content="Cor's contact details" />
 </svelte:head>
 
 <div class="text-column">
 	<h1>Contact</h1>
-	Feel free to contact me for business inquiries or casual chats!
 
 	<h2>Email</h2>
 	<a href="mailto:cor@pruijs.dev">cor@pruijs.dev</a>
