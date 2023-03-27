@@ -3,16 +3,12 @@
 </svelte:head>
 
 <section>
-	<h1>Cor</h1>
+	<h1 class="text-3xl font-bold">Cor</h1>
 	Software Engineer
 </section>
 
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
+<style lang="postcss">
+  :global(html) {
+    background-color: theme(colors.gray.100);
+  }
 </style>
